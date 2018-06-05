@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Tianyi Chen 陈天翼</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Yingyan (Celine) Lin</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research</h1>
+<div id="subtitle"></div>
+</div>
+<p>It has been a privilege for me to collaborate with esteemed professors and colleagues who have inspired me and helped to shape my research philosophy and vision. My PhD works were supported in part by Systems on Nanoscale Information fabriCs (<a href="http://www.sonic-center.org/"><b>SONIC</b></a>), a $30 million research center led by my PhD advisor <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a> and <a href="http://acsinger.ece.illinois.edu/">Prof. Andrew C. Singer</a> and sponsored by SRC and DARPA.</p>
+<h1>Research Background</h1>
+<table class="imgtable"><tr><td>
+<a href="images/ML_systems.png"><img src="images/ML_systems.png" alt="need photo here" width="407px" height="298px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Machine learning (ML) systems are finding excellent utility in tackling the data deluge of the 21st Century. In fact, many see this as  <a href="https://www.weforum.org/pages/the-fourth-industrial-revolution-by-klaus-schwab/">the fourth industrial revolution</a> due to the exponential speed and enormous scale of current and potential transformation. Recently, ML systems exceeded human performance in some applications such as <a href="http://image-net.org/">million-scale object recognition</a>. However, this record-breaking performance comes at a large energy cost. For example, <a href="https://deepmind.com/research/alphago/">Google’s AlphaGo</a>, which amazed everyone by beating the human Go champion this year, runs on <a href="http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html">1202 CPUs and 176 GPUs</a> and requires more than <a href="http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html">four-orders-of-magnitude higher power than the human brain</a>. Therefore, it is imperative to design energy-efficient ML systems to embrace their full benefits. <b>I am primarily interested in</b> addressing this fundamental problem, which is interdisciplinary and involves diverse areas including devices, circuits, VLSI systems and architectures, and ML algorithms. </p>
+<h1>Current Research</h1>
+<p>Current ML systems are either centralized in a cloud, or distributed at the edge. In cloud platforms, data from the devices of end users, such as mobile phones, are transferred to the data centers which execute ML algorithms on CPU and GPU clusters. The extracted information is then transferred back to users’ devices. While cloud computing is rapidly expanding, <a href="http://ieeexplore.ieee.org/document/5559320/">recent work</a>  shows that the energy cost of transferring data between data centers and local devices can be a significant percentage of the total energy in cloud computing if the usage rate and size of data volume are large. Therefore, there has been an increasing interest to enable local inference capability in the end users’ devices. Local processing of raw data reduces energy and latency, and enhances privacy. In both platforms, there is a grand energy efficiency challenge as described next. In my PhD research, I investigate techniques to address this challenge.</p>
+<h2>Energy Efficiency Challenge in the Data Center</h2>
+<table class="imgtable"><tr><td>
+<a href="images/Cloud_computing.png"><img src="images/Cloud_computing.png" alt="need photo here" width="410px" height="290px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>It is reported that US data centers consumed about 70 billion kilowatt-hours of electricity in 2014, representing 2% of the country’s total energy consumption. Indeed, the costs of power and cooling are becoming significant factors in the total expenditures of large-scale data centers. In particular, data transfer due to inter-chip, inter-board, inter-shelf and inter-rack communications within data centers and inter-site communications between data centers is one of the dominant energy costs. For example, the I/O interface consumes about 20%-70% of the total power in a state-of-the-art 48-core processor. This will only be made worse due to the growing demand for increased I/O bandwidth for high-performance computing in data centers. For example, recent projection indicates that the I/O bandwidth demand will exceed 750 TB/s for super-computers by the year 2020, and the I/O power could reach half of the CPU power.</p>
+<p><b> - BER-optimal ADC-Based Receiver for Serial Links </b> <br />
+To address the energy efficiency challenge in data centers, I focus on reducing the energy of the I/O interface. Specifically, I am interested in analog-to-digital converter (ADC)-based multi-Gb/s serial link receivers, where the power dissipation is dominated by the ADC. ADCs in serial links employ signal-to-noise-and-distortion ratio (SNDR) and effective-number-of-bit (ENOB) as performance metrics because these are the standard for generic ADC design. In <a href="http://ieeexplore.ieee.org/document/7486052/">BOA</a>, I present an investigation on the use of link BER for designing a BER-optimal ADC (BOA) based serial link. This work was done in collaboration with my previous colleagues, Dr. Min-sun Keel (Samsung), Dr. Adam Faust (Intel), and Aolin Xu (UIUC), and Professors <a href="http://acsinger.ece.illinois.edu/">Andrew C. Singer</a> and <a href="http://elyse.ece.illinois.edu/">Elyse Rosenbaum</a> at UIUC, under the guidance of my PhD advisor <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. My contributions are as follows. First, I developed analysis and theory to analytically show when the benefits of the BOA over a conventional uniform ADC (CUA) in a serial link receiver are substantial. Second, I designed a 4 GS/s, 4-bit on-chip ADC in a 90 nm CMOS process, and then took it from the debugging and testing stages, through integrating the chip into an entire working system (a 4Gb/s serial link receiver) to verify the aforementioned analysis. Specifically, measured results demonstrated that a 3-bit BOA receiver outperforms a 4-bit CUA receiver at a BER &lt; 10^{-12} and provides 50% power savings in the ADC. In the process, we demonstrated conclusively that ENOB is not the best metric when designing ADCs for serial links. </p>
+<table class="imgtable"><tr><td>
+<a href="images/BOA_web.png"><img src="images/BOA_web.png" alt="need photo here" width="865px" height="368px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><a href="http://ieeexplore.ieee.org/document/7486052/"><b>This work</b></a> was selected to be presented at IEEE International Solid-State Circuits Conference Student Research Preview in 2015 (<i>ISSCC SRP 2015</i>) and published at IEEE Transactions on Circuits and Systems I (<i>IEEE TCAS-I</i>) in 2016. More importantly, the technique in this work provides a promising solution to the well-known interface power bottleneck problem in data centers.</p>
+<h2>Energy Efficiency Challenge at the Edge</h2>
+<table class="imgtable"><tr><td>
+<a href="images/edge_computing.png"><img src="images/edge_computing.png" alt="need photo here" width="371px" height="294px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Devices at the edge including smart-phones, autonomous vehicle, wearable devices, and many others, have limited energy, computational and storage resources since they are battery-powered and have a small form factor. On the other hand, many ML algorithms are computationally intensive. For example, a state-of-the-art convolutional neural network (CNN), AlexNet, requires 666 million MACs per 227×227 image (13k MACs/pixel). Therefore, the energy efficiency challenge is exacerbated if ML algorithms are to be embedded for local inference capability. Conventional designs rely on voltage and process scaling for energy efficiency, which have stagnated. </p>
+<p>For the problem of resource-constrained computing at the edge, I tackle the issue of energy-efficient implementation of ML algorithms, particularly CNNs. CNNs have recently gained considerable interest due to their record-breaking performance in many recognition tasks. However, their computational complexity hinders their application on power-constrained embedded platforms. In my research, I proposed two techniques for energy-efficient CNN design. </p>
+<table class="imgtable"><tr><td>
+<a href="images/CNN.png"><img src="images/CNN.png" alt="need photo here" width="550px" height="352px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><br /> </p>
+<p><b>- RD-SEC: Variation-tolerant Architectures for Convolutional Neural Networks in the Near Threshold Voltage Regime</b> <br />
+I proposed a variation-tolerant architecture for CNN capable of operating in near threshold voltage (NTV) regime for energy efficiency. This on-going work is in collaboration with my previous colleague, Dr. Sai Zhang (Apple), under the guidance of <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. It is well-known that NTV computing can achieve up to 10×
+energy savings but is subject to exponentially increased sensitivity to process, temperature, and voltage (PVT) variations which can lead to timing errors. I proposed a new statistical error compensation (SEC) technique referred to as rank decomposed SEC (RD-SEC). RD-SEC makes use of the inherent redundancy with matrix-vector multiplications, a commonly employed ML kernel, for low-cost error detection and correction. Simulation results in 45 nm CMOS showed that  the proposed architecture can achieve an 11× improvement in variation tolerance and enable up to 113× reduction in the standard deviation of detection accuracy in comparison to a conventional CNN. Moving forward, I am working to provide analytical justification of RD-SEC, such as analytical bound of the estimation errors and optimal choice of the rank to minimize the overall estimation errors. </p>
+<table class="imgtable"><tr><td>
+<a href="images/RD-SEC.png"><img src="images/RD-SEC.png" alt="need photo here" width="566px" height="356px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><a href="docs/SIPS_accepted_revised_submitted.pdf"><b>This work</b></a> received the 2nd place <b>Best Student Paper Award</b> when I presented it at IEEE International Workshop on Signal Processing Systems in 2016 (<i>SiPS 2016</i>). 
+<br />
+<br /> </p>
+<p><b> - PredictiveNet: An Energy-efficient Convolutional Neural Network via Zero Prediction</b> <br />
+I proposed a predictive CNN (PredictiveNet), which predicts the sparse outputs of the nonlinear layers thereby bypassing a majority of computations. This on-going work is performed in collaboration with my colleagues, <a href="http://sakr2.web.engr.illinois.edu">Charbel Sakr</a> and <a href="https://sites.google.com/site/yongjunekim/">Dr. Yongjune Kim</a>, under the guidance of <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. PredictiveNet skips a large fraction of convolutions in CNNs at runtime without modifying the CNN structure or requiring additional branch networks. Analytical analysis and simulations justified the proposed technique in terms of its capability to preserve the mean square error (MSE) of the nonlinear layer outputs. When applied to a CNN for handwritten digit recognition, simulation results showed that the proposed PredictiveNet can reduce computational cost by a factor of 2.9× compared to a state-of-the-art CNN, while incurring marginal accuracy degradation. Encouraged by these excellent performances, I am currently working to combine RD-SEC and PredictiveNet for ultra energy-efficient CNN design. In particular, I am exploring the use of RD-SEC estimators as sparsity predictors of PredictiveNet for even larger energy savings. In near future, I will evaluate PredictiveNet in the context of large-scale CNNs, such as the popular deep CNN AlexNet, where larger benefits can be expected as sparsity tends to increase as CNNs go deeper. </p>
+<table class="imgtable"><tr><td>
+<a href="images/PredictiveCNN.png"><img src="images/PredictiveCNN.png" alt="need photo here" width="570px" height="337px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><b>This work</b> has been submitted to IEEE International Symposium on Circuits and Systems 2017 (<i>ISCAS 2017</i>) for peer review. </p>
+<h1>Future Research</h1>
+<p>Looking forward, I am excited to continue working in the broad area of energy-efficient ML systems. My extensive research experience, such as BOA, RD-SEC and PredictiveNet described above, and my learning from the related courses, such as VLSI in Signal Processing and Communications, Machine Learning in Silicon, and Machine Learning for Signal Processing, provide me with a good understanding of this fundamental yet critical challenge. In my view, this challenge should be addressed by taking a holistic view of the entire information gathering and processing stack. Specifically, I would like to explore the following three directions through active collaboration with faculty members in related areas. </p>
+<h2><b>Algorithms</b>: </h2>
+<p>Many ML algorithms are essentially optimization problems and try to minimize certain loss functions. This provides a system-level opportunity to improve energy efficiency: the original optimization problem can be reformulated by introducing extra architecture or circuit constraints for energy purposes. Such resource-constrained reformulation will enable systematic design of energy-efficient ML systems. Possible constraints are cost of data movements, precision requirements for data representation, and others. For example, imposing constraints that favor the reduction of estimation errors in my proposed RD-SEC technique could suppress the estimation errors. Possibly, the estimators themselves can guarantee marginal system performance loss and eliminate the need for power-hungry implementations. Another example is to constrain the training algorithms such that sparsity predictors in PredictiveNet can be shared by multiple kernels thereby reducing cost even further. </p>
+<h2><b>Systems</b>: </h2>
+<p>Many ML algorithms are essentially optimization problems and try to minimize certain loss functions. This provides a system-level opportunity to improve energy efficiency: the original optimization problem can be reformulated by introducing extra architecture or circuit constraints for energy purposes. Such resource-constrained reformulation will enable systematic design of energy-efficient ML systems. Possible constraints are cost of data movements, precision requirements for data representation, and others. For example, imposing constraints that favor the reduction of estimation errors in my proposed RD-SEC technique could suppress the estimation errors. Possibly, the estimators themselves can guarantee marginal system performance loss and eliminate the need for power-hungry implementations. Another example is to constrain the training algorithms such that sparsity predictors in PredictiveNet can be shared by multiple kernels thereby reducing cost even further. </p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
