@@ -43,16 +43,33 @@ learning and networking communities and developing inter-disciplinary approaches
 <table class="imgtable"><tr><td>
 <a href="images/Cloud_computing.png"><img src="images/Cloud_computing.png" alt="need photo here" width="410px" height="290px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>It is reported that US data centers consumed about 70 billion kilowatt-hours of electricity in 2014, representing 2% of the country’s total energy consumption. Indeed, the costs of power and cooling are becoming significant factors in the total expenditures of large-scale data centers. In particular, data transfer due to inter-chip, inter-board, inter-shelf and inter-rack communications within data centers and inter-site communications between data centers is one of the dominant energy costs. For example, the I/O interface consumes about 20%-70% of the total power in a state-of-the-art 48-core processor. This will only be made worse due to the growing demand for increased I/O bandwidth for high-performance computing in data centers. For example, recent projection indicates that the I/O bandwidth demand will exceed 750 TB/s for super-computers by the year 2020, and the I/O power could reach half of the CPU power.</p>
+<p>It is reported that US data centers consumed about 70 billion kilowatt-hours of electricity in 2014, representing 2% of the country’s total energy consumption. Indeed, the costs of power and cooling are becoming significant factors in the total expenditures of large-scale data centers. In particular, data transfer due to inter-chip, inter-board, inter-shelf and inter-rack communications within data centers and inter-site communications between data centers is one of the dominant energy costs. </p>
   
 <h4> <li>Federated (reinforcement) learning at the network edge</li> </h4>
-To address the energy efficiency challenge in data centers, I focus on reducing the energy of the I/O interface. Specifically, I am interested in analog-to-digital converter (ADC)-based multi-Gb/s serial link receivers, where the power dissipation is dominated by the ADC. ADCs in serial links employ signal-to-noise-and-distortion ratio (SNDR) and effective-number-of-bit (ENOB) as performance metrics because these are the standard for generic ADC design. In <a href="http://ieeexplore.ieee.org/document/7486052/">BOA</a>, I present an investigation on the use of link BER for designing a BER-optimal ADC (BOA) based serial link. This work was done in collaboration with my previous colleagues, Dr. Min-sun Keel (Samsung), Dr. Adam Faust (Intel), and Aolin Xu (UIUC), and Professors <a href="http://acsinger.ece.illinois.edu/">Andrew C. Singer</a> and <a href="http://elyse.ece.illinois.edu/">Elyse Rosenbaum</a> at UIUC, under the guidance of my PhD advisor <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. My contributions are as follows. First, I developed analysis and theory to analytically show when the benefits of the BOA over a conventional uniform ADC (CUA) in a serial link receiver are substantial. Second, I designed a 4 GS/s, 4-bit on-chip ADC in a 90 nm CMOS process, and then took it from the debugging and testing stages, through integrating the chip into an entire working system (a 4Gb/s serial link receiver) to verify the aforementioned analysis. Specifically, measured results demonstrated that a 3-bit BOA receiver outperforms a 4-bit CUA receiver at a BER &lt; 10^{-12} and provides 50% power savings in the ADC. In the process, we demonstrated conclusively that ENOB is not the best metric when designing ADCs for serial links. </p>
+Conventional machine learning approaches
+require centralizing the users’ data on one machine or in a data center. Considering the
+massive amount of IoT devices, centralized learning becomes computationally intractable, and rises
+serious privacy concerns. To date, the widespread consensus is that besides data centers at the
+cloud, future machine learning tasks have to be performed starting from the network edge, namely
+mobile devices. This is the overarching goal of edge computing, also known as federated learning
+[17]. Towards this goal, my research efforts are centered on reducing the communication overhead
+during the federated learning processes [3], and enhancing the robustness of learning under adversarial
+attacks [16]. Relevant results have been published in top machine learning venues (NIPS
+2018 and AAAI 2019). It is worth mentioning that our learning method with adaptive communication
+mechanism [3] has been selected as the spotlight presentation in NIPS, which establishes
+a provably reduced communication complexity in federated learning. Challenges of distributed
+learning also lie in asynchrony and delay introduced by e.g., IoT mobility and heterogeneity. In this
+context, we have developed algorithms for delayed online learning that can be run asynchronously
+on edge devices; see our recent submission to AISTATS [15]. From distributed machine learning to
+distributed control, reinforcement learning will play a critical role in distributed management for IoT. Generalizing our theory and supervised learning algorithms [3], we have recently developed
+exciting communication-efficient algorithms for distributed reinforcement learning [4]. Results in
+this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018. </p>
 <table class="imgtable"><tr><td>
 <a href="images/BOA_web.png"><img src="images/BOA_web.png" alt="need photo here" width="865px" height="368px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
 <p><b>Related publications</b>: </p>
 <ol>
-<li><p><b>L.Huang</b>, M. Chen, and Y. Liu, &lsquo;&lsquo;<a href="http://iiis.tsinghua.edu.cn/~huang/plc-mobihoc-17.pdf">Learning-aided Stochastic Network Optimization with Imperfect State Prediction</a>,’’ Proceedings of the 18th ACM International Symposium on Mobile Ad Hoc Networking and Computing (<tt>MobiHoc</tt>), July 2017. </p>
+<li><p><b>L.Huang</b>, M. Chen, and Y. Liu, <a href="http://iiis.tsinghua.edu.cn/~huang/plc-mobihoc-17.pdf">Learning-aided Stochastic Network Optimization with Imperfect State Prediction</a>,’’ Proceedings of the 18th ACM International Symposium on Mobile Ad Hoc Networking and Computing (<tt>MobiHoc</tt>), July 2017. </p>
 </li>
 <li><p><b>L. Huang</b>, <a href="http://www.iiis.tsinghua.edu.cn/~huang/matching-queue-mobihoc15.pdf">&lsquo;&lsquo;The Value-of-Information in Matching with Queues,’’</a> Proceedings of the 16th ACM International Symposium on Mobile Ad Hoc Networking and Computing (<tt>MobiHoc</tt>), June 2015.</p>
 </li>
@@ -63,19 +80,25 @@ To address the energy efficiency challenge in data centers, I focus on reducing 
 </ol>
  
 <h4><li>Scalable function approximation with unknown dynamics</li> </h4>
-To address the energy efficiency challenge in data centers, I focus on reducing the energy of the I/O interface. Specifically, I am interested in analog-to-digital converter (ADC)-based multi-Gb/s serial link receivers, where the power dissipation is dominated by the ADC. ADCs in serial links employ signal-to-noise-and-distortion ratio (SNDR) and effective-number-of-bit (ENOB) as performance metrics because these are the standard for generic ADC design. In <a href="http://ieeexplore.ieee.org/document/7486052/">BOA</a>, I present an investigation on the use of link BER for designing a BER-optimal ADC (BOA) based serial link. This work was done in collaboration with my previous colleagues, Dr. Min-sun Keel (Samsung), Dr. Adam Faust (Intel), and Aolin Xu (UIUC), and Professors <a href="http://acsinger.ece.illinois.edu/">Andrew C. Singer</a> and <a href="http://elyse.ece.illinois.edu/">Elyse Rosenbaum</a> at UIUC, under the guidance of my PhD advisor <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. My contributions are as follows. First, I developed analysis and theory to analytically show when the benefits of the BOA over a conventional uniform ADC (CUA) in a serial link receiver are substantial. Second, I designed a 4 GS/s, 4-bit on-chip ADC in a 90 nm CMOS process, and then took it from the debugging and testing stages, through integrating the chip into an entire working system (a 4Gb/s serial link receiver) to verify the aforementioned analysis. Specifically, measured results demonstrated that a 3-bit BOA receiver outperforms a 4-bit CUA receiver at a BER &lt; 10^{-12} and provides 50% power savings in the ADC. In the process, we demonstrated conclusively that ENOB is not the best metric when designing ADCs for serial links. </p>
+Function approximation emerges at the core of machine learning tasks such as regression, classification, dimensionality reduction, as well as reinforcement learning. Kernel methods exhibit well-documented performance in function
+approximation. However, the major challenges of implementing existing methods to IoT come
+from two sources: i) the “curse” of dimensionality in kernel-based learning; and, ii) the need to
+track time-varying functions with unknown dynamics. In this context, we have developed a scalable
+multi-kernel learning scheme to obtain the sought nonlinear learning function ‘on the fly.’
+To further boost performance in unknown environments, we also developed an adaptive learning
+scheme, which accounts for the unknown dynamics. So far, results in this direction have appeared
+in the top artificial intelligence (AI) venue AISTATS 2018 [18] and the prestigious JMLR [19]. Our
+scalable algorithm is uniquely capable of tracking learning functions in IoT environments with unknown
+dynamics, and with analytical as well as empirical performance guarantees. </p>
 <table class="imgtable"><tr><td>
 <a href="images/BOA_web.png"><img src="images/BOA_web.png" alt="need photo here" width="865px" height="368px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
 <p><b>Related publications</b>: </p>
 <ol>
-<li><p><b>L.Huang</b>, M. Chen, and Y. Liu, &lsquo;&lsquo;<a href="http://iiis.tsinghua.edu.cn/~huang/plc-mobihoc-17.pdf">Learning-aided Stochastic Network Optimization with Imperfect State Prediction</a>,’’ Proceedings of the 18th ACM International Symposium on Mobile Ad Hoc Networking and Computing (<tt>MobiHoc</tt>), July 2017. </p>
+<li><p>Y. Shen, T. Chen, and G. B. Giannakis, <a href="http://iiis.tsinghua.edu.cn/~huang/plc-mobihoc-17.pdf">Online ensemble multi-kernel learning adaptive to nonstationary and adversarial environments</a>,’’ Proc. of Intl. Conf. on Artificial Intell. and Stat. (AISTATS), Lanzarote, Canary Islands, April 2018. </p>
 </li>
-<li><p><b>L. Huang</b>, <a href="http://www.iiis.tsinghua.edu.cn/~huang/matching-queue-mobihoc15.pdf">&lsquo;&lsquo;The Value-of-Information in Matching with Queues,’’</a> Proceedings of the 16th ACM International Symposium on Mobile Ad Hoc Networking and Computing (<tt>MobiHoc</tt>), June 2015.</p>
-</li>
-<li><p><b>L. Huang</b>,  <a href="http://www.iiis.tsinghua.edu.cn/~huang/rlc-Performance15.pdf">&lsquo;&lsquo;Receding Learning-aided Control in Stochastic Networks,’’</a> IFIP Performance (<tt>Performance</tt>), Oct 2015. </p>
-</li>
-<li><p><b>L. Huang</b>, X. Liu, and X. Hao, <a href="http://www.iiis.tsinghua.edu.cn/~huang/huang-olac-sigmetrics-2014.pdf">&lsquo;&lsquo;The Power of Online Learning in Stochastic Network Optimization,’’</a> Proceedings of ACM Sigmetrics (<tt>Sigmetrics</tt> full paper), June 2014. </p>
+<li><p>Y. Shen, T. Chen, and G. B. Giannakis, <a href="http://www.iiis.tsinghua.edu.cn/~huang/matching-queue-mobihoc15.pdf">Random feature-based online multi-kernel learning in environments
+with unknown dynamics</a> Journal of Machine Learning Research, conditional accepted, October 2018.</p>
 </li>
 </ol>
   
@@ -88,8 +111,20 @@ To address the energy efficiency challenge in data centers, I focus on reducing 
 
 
 <h4><li>Statistical learning viewpoint of resource management</li></h4>
-I proposed a variation-tolerant architecture for CNN capable of operating in near threshold voltage (NTV) regime for energy efficiency. This on-going work is in collaboration with my previous colleague, Dr. Sai Zhang (Apple), under the guidance of <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. It is well-known that NTV computing can achieve up to 10×
-energy savings but is subject to exponentially increased sensitivity to process, temperature, and voltage (PVT) variations which can lead to timing errors. I proposed a new statistical error compensation (SEC) technique referred to as rank decomposed SEC (RD-SEC). RD-SEC makes use of the inherent redundancy with matrix-vector multiplications, a commonly employed ML kernel, for low-cost error detection and correction. Simulation results in 45 nm CMOS showed that  the proposed architecture can achieve an 11× improvement in variation tolerance and enable up to 113× reduction in the standard deviation of detection accuracy in comparison to a conventional CNN. Moving forward, I am working to provide analytical justification of RD-SEC, such as analytical bound of the estimation errors and optimal choice of the rank to minimize the overall estimation errors. </p>
+To date, most resource management schemes for IoT are based on a pure optimization viewpoint (e.g., the dual (sub)gradient method), which incur large queueing delays and slow convergence. From the vantage point of IoT, our fresh
+idea is to leverage the abundant historical data collected by devices, and formulate the resource
+management problem as an empirical risk minimization (ERM) — a central topic of statistical machine
+learning research [1]. In this context, we have developed a fast convergent algorithm. By
+cross-fertilizing advances of learning theory, we have also established the sample complexity of
+learning a near-optimal resource management policy [7]. To boost performance in dynamic settings,
+we further introduced a learn-and-adapt resource management framework [6], which capitalizes
+on the following features: (f1) it learns from historical data using advanced statistical learning
+tools; and, (f2) it efficiently adapts to IoT dynamics, and thus enables operational flexibility. Our
+proposed algorithms have been published in top signal processing and network optimization
+journals [6, 7], where we have analytically shown that this novel algorithmic design can provably
+improve the emerging performance tradeoff by an order of magnitude. Preliminary results in this
+direction have also played a key role in helping our group receive the NSF CCSS grant. To demonstrate
+the impact of this work, we have applied it to mobile computing and smart grid tasks [13, 14].</p>
 <table class="imgtable"><tr><td>
 <a href="images/RD-SEC.png"><img src="images/RD-SEC.png" alt="need photo here" width="566px" height="356px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -100,7 +135,20 @@ energy savings but is subject to exponentially increased sensitivity to process,
 </li>
 </ol>
 <h4><li>Model-free resource management for edge computing</li></h4>
-I proposed a predictive CNN (PredictiveNet), which predicts the sparse outputs of the nonlinear layers thereby bypassing a majority of computations. This on-going work is performed in collaboration with my colleagues, <a href="http://sakr2.web.engr.illinois.edu">Charbel Sakr</a> and <a href="https://sites.google.com/site/yongjunekim/">Dr. Yongjune Kim</a>, under the guidance of <a href="http://shanbhag.ece.illinois.edu/">Prof. Naresh R. Shanbhag</a>. PredictiveNet skips a large fraction of convolutions in CNNs at runtime without modifying the CNN structure or requiring additional branch networks. Analytical analysis and simulations justified the proposed technique in terms of its capability to preserve the mean square error (MSE) of the nonlinear layer outputs. When applied to a CNN for handwritten digit recognition, simulation results showed that the proposed PredictiveNet can reduce computational cost by a factor of 2.9× compared to a state-of-the-art CNN, while incurring marginal accuracy degradation. Encouraged by these excellent performances, I am currently working to combine RD-SEC and PredictiveNet for ultra energy-efficient CNN design. In particular, I am exploring the use of RD-SEC estimators as sparsity predictors of PredictiveNet for even larger energy savings. In near future, I will evaluate PredictiveNet in the context of large-scale CNNs, such as the popular deep CNN AlexNet, where larger benefits can be expected as sparsity tends to increase as CNNs go deeper. </p>
+Typically, solving resource allocation
+problems necessitates knowledge of the models that map a resource allocation decision to its cost
+or utility; e.g., the model that maps transmit-power to the bit rate in communication systems. However,
+such models may not be available in IoT, because i) the utility function capturing e.g., service
+latency or reliability in edge computing, can be hard to model; and, ii) even if modeling is possible,
+IoT devices with limited resources may not afford the complexity of running sophisticated inference
+algorithms. Hence, another important ingredient of my research is to account for the feedback
+limited nature of resource allocation tasks in IoT. To account for physical constraints, we have considerably
+generalized the interactive learning tools for unconstrained problems to solve challenging constrained resource allocation problems [5]. Tailored for edge computing scenarios, we further developed
+a model-free online learning scheme [8], along with its bandit version [9]. These algorithms
+come with provable performance guarantees, even when knowledge about the underlying system
+models can be obtained only through repeated interactions with the environment. Results in this
+direction have been disseminated as part of a tutorial we co-presented at GLOBECOM 2018, and
+were among the top 10 nominated for the best paper award in the 2017 IEEE Asilomar conference.</p>
 <table class="imgtable"><tr><td>
 <a href="images/PredictiveCNN.png"><img src="images/PredictiveCNN.png" alt="need photo here" width="570px" height="337px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
