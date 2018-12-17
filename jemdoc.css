@@ -1,9 +1,12 @@
 /* Default css file for jemdoc. */
 
 table#tlayout {
+        width:1150px;
     border: none;
     border-collapse: separate;
-    background: white;
+    background: #b2h2h2;
+    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255, 0.95);
 }
 
 body {
