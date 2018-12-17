@@ -53,7 +53,7 @@ of each other, with the ultimate goal of benefiting our daily life.</p>
 <table class="imgtable"><tr><td>
 <a href="images/Cloud_computing.png"><img src="images/Cloud_computing.png" alt="need photo here" width="410px" height="290px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>It is reported that US data centers consumed about 70 billion kilowatt-hours of electricity in 2014, representing 2% of the country’s total energy consumption. Indeed, the costs of power and cooling are becoming significant factors in the total expenditures of large-scale data centers. In particular, data transfer due to inter-chip, inter-board, inter-shelf and inter-rack communications within data centers and inter-site communications between data centers is one of the dominant energy costs. </p>
+<p>It is reported that US data centers consumed about 70 billion kilowatt-hours of electricity in 2014, representing 2% of the country’s total energy consumption. Indeed, the costs of power and cooling are becoming significant factors in the total expenditures of large-scale data centers. In particular, data transfer due to inter-chip, inter-board, inter-shelf and inter-rack communications within data centers and inter-site communications between data centers is one of the dominant energy costs. Results in this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018.</p>
   
 <h4> <li>Federated learning at the network edge</li> </h4>
 Conventional machine learning approaches
@@ -64,22 +64,19 @@ cloud, future machine learning tasks have to be performed starting from the netw
 mobile devices. This is the overarching goal of edge computing, also known as federated learning
 [17]. Towards this goal, my research efforts are centered on reducing the communication overhead
 during the federated learning processes [3], and enhancing the robustness of learning under adversarial
-attacks [16]. Relevant results have been published in top machine learning venues (NIPS
+attacks [16]. Relevant results have been published in top machine learning venues (NeurIPS
 2018 and AAAI 2019). It is worth mentioning that our learning method with adaptive communication
 mechanism [3] has been selected as the spotlight presentation in NIPS, which establishes
 a provably reduced communication complexity in federated learning. Challenges of distributed
 learning also lie in asynchrony and delay introduced by e.g., IoT mobility and heterogeneity. In this
 context, we have developed algorithms for delayed online learning that can be run asynchronously
-on edge devices; see our recent submission to AISTATS [15]. From distributed machine learning to
-distributed control, reinforcement learning will play a critical role in distributed management for IoT. Generalizing our theory and supervised learning algorithms [3], we have recently developed
-exciting communication-efficient algorithms for distributed reinforcement learning [4]. Results in
-this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018. </p>
+on edge devices; see our recent submission to AISTATS [15].</p>
 <table class="imgtable"><tr><td>
 <a href="images/BOA_web.png"><img src="images/BOA_web.png" alt="need photo here" width="865px" height="368px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
 <p><b>Related publications</b>: </p>
 <ol>
-<li><p><b>T. Chen</b>, G. Giannakis, T. Sun and W. Yin, &lsquo;&lsquo;<a href="http://papers.nips.cc/paper/7752-lag-lazily-aggregated-gradient-for-communication-efficient-distributed-learning.pdf">LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning</a>,’’ <i>Proc. of Neural Information Processing Systems</i> <b>(NIPS)</b>, Montreal, Canada, December 3-8, 2018. <b>(Spotlight talk)</b> </p>
+<li><p><b>T. Chen</b>, G. Giannakis, T. Sun and W. Yin, &lsquo;&lsquo;<a href="http://papers.nips.cc/paper/7752-lag-lazily-aggregated-gradient-for-communication-efficient-distributed-learning.pdf">LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning</a>,’’ <i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Montreal, Canada, December 3-8, 2018. <b>(Spotlight talk)</b> </p>
 </li> 
 <li><p>L. Li, W. Xu, <b>T. Chen</b>, G. Giannakis, and Q. Ling, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1811.03761.pdf">&lsquo;&lsquo;RSA: Byzantine-Robust Stochastic Aggregation Methods for Distributed Learning from Heterogeneous Datasets,’’</a> <i>Proc. of the Assoc. for the Advanc. of Artificial Intelligence </i> <b>(AAAI)</b>, Honolulu, Hawai, January 27-February 1, 2019. <b>(Oral presentation)</b></p> 
 </li>
@@ -88,7 +85,10 @@ this line of research have also been presented as a part of a tutorial we delive
 </ol>
 
 <h4> <li>Federated reinforcement learning over networked agents</li> </h4>
-
+<p>From distributed machine learning to
+distributed control, reinforcement learning will play a critical role in distributed management for IoT. Generalizing our theory and supervised learning algorithms [3], we have recently developed
+exciting communication-efficient algorithms for distributed reinforcement learning [4]. </p>
+  
 <p><b>Related publications</b>: </p>
 <ol>
 <li><p><b>T. Chen</b>, K. Zhang, G. B. Giannakis, and T. Ba&#351;ar, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1812.03239.pdf">Communication-Efficient Distributed Reinforcement Learning,’’</a> Submitted to  Journal of Machine Learning Research, December 2018. </p>
@@ -128,7 +128,7 @@ tackle <b>(Q2)</b>, I have provided affirmative answers to the following interme
 <p><b> i)</b> can we learn from historical data to improve the existing resource management schemes; and,<br /> 
 <b>ii)</b> can we develop resource management schemes when the underlying models are not known? <br /> </p>
   
-<p>The key novelty here is innovative statistical and interactive learning tailored for resource management tasks in IoT.</p>
+<p>The key novelty here is innovative statistical and interactive learning tailored for resource management tasks in IoT. Results in this direction have been disseminated as part of a tutorial we co-presented at GLOBECOM 2018, and summarized in our overview paper.</p>
   
 <p><b>Overview paper</b>:</p>
 <p><b>T. Chen</b>, S. Barbarossa, X. Wang, G. Giannakis and Z.-L. Zhang, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1810.11613.pdf">Learning and Management for Internet-of-Things: Accounting for Adaptivity and Scalability</a>,’’ <i> Proceedings of the IEEE</i>, to appear, 2018.
@@ -178,8 +178,7 @@ generalized the interactive learning tools for unconstrained problems to solve c
 a model-free online learning scheme [8], along with its bandit version [9]. These algorithms
 come with provable performance guarantees, even when knowledge about the underlying system
 models can be obtained only through repeated interactions with the environment. Results in this
-direction have been disseminated as part of a tutorial we co-presented at GLOBECOM 2018, and
-were among the top 10 nominated for the best paper award in the 2017 IEEE Asilomar conference.</p>
+direction were among the top 10 nominated for the best paper award in the 2017 IEEE Asilomar conference.</p>
 <table class="imgtable"><tr><td>
 <a href="images/PredictiveCNN.png"><img src="images/PredictiveCNN.png" alt="need photo here" width="570px" height="337px" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
