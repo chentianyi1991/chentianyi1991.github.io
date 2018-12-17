@@ -119,7 +119,9 @@ For resource-limited IoT devices (e.g., battery-powered UAVs), communication is 
 Generalizing our theory and algorithms for supervised learning settings, we have developed an 
 exciting communication-efficient algorithm for DRl, which directly builds on the well-known policy
 gradient method. Our new method is amenable to efficient implementation in such communication-constrained
-settings. </p>
+settings. Remarkabley, it can achieve the same order of convergence rates (thus iteration complexities) as
+vanilla policy gradient under standard conditions; and, ii) reduce the communication rounds required to achieve
+a targeted learning accuracy, when the distributed agents are heterogeneous. </p>
 	
 <p><table class="imgtable"><tr><td>
 <img src="figures/DRLtask.png" alt="need photo here" width="450" height="250" />&nbsp&nbsp&nbsp&nbsp <img src="figures/DRLtask1.png" alt="need photo here" width="700" height="250" /></td>
