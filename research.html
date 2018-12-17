@@ -53,7 +53,7 @@
     
 <p>The past decade has witnessed a proliferation of connected devices and objects, where the notion
 of Internet-of-Things (IoT) plays a central role in the envisioned technological advances. Conceptually
-speaking, IoT foresees an intelligent system with ubiquitous smart devices [2]. Today, a number
+speaking, IoT foresees an intelligent system with ubiquitous smart devices. Today, a number
 of IoT applications have already brought major benefits to many aspects of our daily life. Despite
 the popularity of IoT, several challenges must be addressed before embracing its full potential. In
 this context, I work at the intersection of IoT and machine learning. My background is in statistical
@@ -89,14 +89,14 @@ massive amount of IoT devices, centralized learning becomes computationally intr
 serious privacy concerns. To date, the widespread consensus is that besides data centers at the
 cloud, future machine learning tasks have to be performed starting from the network edge, namely
 mobile devices. This is the overarching goal of edge computing, also known as <a href="https://youtu.be/gbRJPa9d-VU">federated learning</a>. Towards this goal, my research efforts are centered on reducing the communication overhead
-during the federated learning processes [3], and enhancing the robustness of learning under adversarial
-attacks [16]. Relevant results have been published in top machine learning venues (NeurIPS
+during the federated learning processes, and enhancing the robustness of learning under adversarial
+attacks. Relevant results have been published in top machine learning venues (NeurIPS
 2018 and AAAI 2019). It is worth mentioning that our learning method with adaptive communication
-mechanism [3] has been selected as the spotlight presentation in NIPS, which establishes
+mechanism has been selected as the spotlight presentation in NIPS, which establishes
 a provably reduced communication complexity in federated learning. Challenges of distributed
 learning also lie in asynchrony and delay introduced by e.g., IoT mobility and heterogeneity. In this
 context, we have developed algorithms for delayed online learning that can be run asynchronously
-on edge devices; see our recent submission to AISTATS [15].</p>
+on edge devices; see our recent submission to AISTATS.</p>
 <p><table class="imgtable"><tr><td>
 <img src="figures/fedcomp.png" alt="need photo here" width="450" height="260" />&nbsp&nbsp&nbsp&nbsp&nbsp <img src="figures/fedcomp1.png" alt="need photo here" width="700" height="250" /></td>
 <td align="left"></td></tr></table></p>
@@ -165,17 +165,17 @@ tackle <b>(Q2)</b>, I have provided affirmative answers to the following interme
 To date, most resource management schemes for IoT are based on a pure optimization viewpoint (e.g., the dual (sub)gradient method), which incur large queueing delays and slow convergence. From the vantage point of IoT, our fresh
 idea is to leverage the abundant historical data collected by devices, and formulate the resource
 management problem as an empirical risk minimization (ERM) — a central topic of statistical machine
-learning research [1]. In this context, we have developed a fast convergent algorithm. By
+learning research. In this context, we have developed a fast convergent algorithm. By
 cross-fertilizing advances of learning theory, we have also established the sample complexity of
-learning a near-optimal resource management policy [7]. To boost performance in dynamic settings,
-we further introduced a learn-and-adapt resource management framework [6], which capitalizes
+learning a near-optimal resource management policy. To boost performance in dynamic settings,
+we further introduced a learn-and-adapt resource management framework, which capitalizes
 on the following features: (f1) it learns from historical data using advanced statistical learning
 tools; and, (f2) it efficiently adapts to IoT dynamics, and thus enables operational flexibility. Our
 proposed algorithms have been published in top signal processing and network optimization
-journals [6, 7], where we have analytically shown that this novel algorithmic design can provably
+journals, where we have analytically shown that this novel algorithmic design can provably
 improve the emerging performance tradeoff by an order of magnitude. Preliminary results in this
 direction have also played a key role in helping our group receive the NSF CCSS grant. To demonstrate
-the impact of this work, we have applied it to mobile computing and smart grid tasks [13, 14].</p>
+the impact of this work, we have applied it to mobile computing and smart grid tasks.</p>
 <p><table class="imgtable"><tr><td>
 <img src="figures/statlearn.png" alt="need photo here" width="490" height="210" />&nbsp&nbsp&nbsp&nbsp&nbsp<img src="figures/statlearn1.png" alt="need photo here" width="700" height="210" /></td>
 <td align="left"></td></tr></table></p>
@@ -201,8 +201,8 @@ latency or reliability in edge computing, can be hard to model; and, ii) even if
 IoT devices with limited resources may not afford the complexity of running sophisticated inference
 algorithms. Hence, another important ingredient of my research is to account for the feedback
 limited nature of resource allocation tasks in IoT. To account for physical constraints, we have considerably
-generalized the interactive learning tools for unconstrained problems to solve challenging constrained resource allocation problems [5]. Tailored for edge computing scenarios, we further developed
-a model-free online learning scheme [8], along with its bandit version [9]. These algorithms
+generalized the interactive learning tools for unconstrained problems to solve challenging constrained resource allocation problems. Tailored for edge computing scenarios, we further developed
+a model-free online learning scheme, along with its model-free bandit version. These algorithms
 come with provable performance guarantees, even when knowledge about the underlying system
 models can be obtained only through repeated interactions with the environment. Results in this
 direction were among the top 10 nominated for the best paper award in the 2017 IEEE Asilomar conference.</p>
