@@ -114,10 +114,12 @@ on edge devices; see our recent submission to AISTATS.</p>
 </ol>
 
 <h4> <li>Federated reinforcement learning over networked agents</li> </h4>
-<p>From learning to control, reinforcement learning (RL) will play a critical role in many complex computing, communication and control tasks in IoT. 
-A number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles and robotics, involve multiple learners operating in a distributed fashion. I have studied the distributed reinforcement learning (DRL) problem that can cover two general settings: multi-agent collaborative RL and parallel RL. 
-Generalizing our theory and algorithms for supervised learning settings, we have developed
-exciting communication-efficient algorithms for distributed reinforcement learning. </p>
+<p>From learning to control, reinforcement learning (RL) will play a critical role in many complex computing, communication and control tasks in IoT. Popular RL algorithms are originally developed for the single-agent tasks, but a number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles (UAV) and robotics, involve multiple agents operating in a distributed fashion. Taking UAV an example, a group of coordinated UAVs can now successfully perform traffic control, food delivery, rescue and search. To coordinate agents distributed over the network however, information exchange among agents is usually necassry, which requires frequent communication between the controller and the agents. 
+For resource-limited IoT devices (e.g., battery-powered UAVs), communication is costly and the latency caused by frequent communication becomes the bottleneck of overall performance. In this context, I have studied the distributed reinforcement learning (DRL) problem that can cover two general settings: multi-agent collaborative RL and parallel RL. 
+Generalizing our theory and algorithms for supervised learning settings, we have developed an 
+exciting communication-efficient algorithm for DRl, which directly builds on the well-known policy
+gradient method. Our new method is amenable to efficient implementation in such communication-constrained
+settings. </p>
 	
 <p><table class="imgtable"><tr><td>
 <img src="figures/DRLtask.png" alt="need photo here" width="450" height="250" />&nbsp&nbsp&nbsp&nbsp <img src="figures/DRLtask1.png" alt="need photo here" width="700" height="250" /></td>
