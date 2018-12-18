@@ -74,18 +74,18 @@ learning and networking communities, and developing inter-disciplinary approache
 tools with the emerging IoT paradigm, in a way that they can inspire and reinforce the development
 of each other, with the ultimate goal of benefiting our daily life.</p>
   
-<h2>Current Research</h2>
-<!-- <p>Current ML systems are either centralized in a cloud, or distributed at the edge. In cloud platforms, data from the devices of end users, such as mobile phones, are transferred to the data centers which execute ML algorithms on CPU and GPU clusters. The extracted information is then transferred back to users’ devices. While cloud computing is rapidly expanding, <a href="http://ieeexplore.ieee.org/document/5559320/">recent work</a>  shows that the energy cost of transferring data between data centers and local devices can be a significant percentage of the total energy in cloud computing if the usage rate and size of data volume are large. Therefore, there has been an increasing interest to enable local inference capability in the end users’ devices. Local processing of raw data reduces energy and latency, and enhances privacy. In both platforms, there is a grand energy efficiency challenge as described next. </p> -->
+<!-- <h2>Current Research</h2> -->
 <p>In the pursuit of the research goals, my contributions can be summarized into two major areas.</p>
 		
-<h3>Scale Up Machine Learning Approaches for IoT</h3>
+<h2>Scale Up Machine Learning Approaches for IoT</h2>
 <p>It is estimated that by 2020, there will be more than 50 billion devices connected through the Internet.
 To tackle (Q1), it is evident that scalability and heterogeneity are two key challenges for IoT.
 Scalability is not only about computational efficiency, but also about communication overhead of
 running learning algorithms at the network edge; while heterogeneity comes from both the wide
 range of hardware devices, as well as the diversity of IoT tasks offered by each device. Results in this line of research have also been presented as a part of <a href="https://events.afcea.org/MILCOM18/Public/SessionDetails.aspx?FromPage=Sessions.aspx&SessionID=6712&SessionDateID=518">a tutorial</a> we delivered at MILCOM 2018.</p>
   
-<h4> <li>Federated learning at the network edge</li> </h4>
+<!-- <h4> <li>Federated learning at the network edge</li> </h4> -->
+<h3>Federated learning at the network edge</h3>
 Conventional machine learning approaches require centralizing the users’ data in a remote data center, which is known as cloud computing. In cloud computing, users’ data from the devices, such as mobile phones, are transferred to the data centers which execute learning algorithms on CPU and GPU clusters. 
 The extracted information is then transferred back to users’ devices.
 Considering the massive amount of IoT devices, centralized learning becomes computationally intractable, and rises
@@ -113,7 +113,8 @@ on edge devices; see our recent submission to AISTATS.</p>
 </li>
 </ol>
 
-<h4> <li>Federated reinforcement learning over networked agents</li> </h4>
+<h3>Federated reinforcement learning over networked agents</h3>
+<!-- <h4> <li>Federated reinforcement learning over networked agents</li> </h4> -->
 <p>From learning to control, reinforcement learning (RL) will play a critical role in many complex IoT tasks. Popular RL algorithms are originally developed for the single-agent tasks, but a number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles (UAV), involve multiple agents operating in a distributed fashion. Today, a group of coordinated UAVs can perform traffic control, food delivery, rescue and search tasks. To coordinate agents distributed over a network however, information exchange is necessary, which requires frequent communication among agents. 
 For resource-limited devices (e.g., battery-powered UAVs), communication is costly and the latency caused by frequent communication becomes the bottleneck of overall performance. In this context, we have studied the distributed RL (DRL) problem that covers multi-agent collaborative RL and parallel RL. 
 Generalizing our theory and algorithms for supervised learning, we have developed an exciting communication-efficient algorithm (<tt>LAPG</tt>) for DRL, which builds on the policy gradient (PG) method. Remarkabley, our new method can achieve the same order of convergence rates as vanilla policy gradient under standard conditions; and, ii) reduce the communication rounds required to achieve
@@ -129,7 +130,8 @@ a targeted learning accuracy, when the distributed agents are heterogeneous. </p
 </li>  
 </ol>
   
-<h4><li>Scalable function approximation with unknown dynamics</li> </h4>
+<!-- <h4><li>Scalable function approximation with unknown dynamics</li> </h4> -->
+<h3>Scalable function approximation with unknown dynamics</h3>	
 Function approximation emerges at the core of machine learning tasks such as regression, classification, dimensionality reduction, as well as reinforcement learning. Kernel methods exhibit well-documented performance in function
 approximation. However, the major challenges of implementing existing methods to IoT come
 from two sources: i) the “curse” of dimensionality in kernel-based learning; and, ii) the need to
@@ -152,7 +154,7 @@ with Unknown Dynamics</a>'' <i>Journal of Machine Learning Research</i>, conditi
 </li>
 </ol>
   
-<h3>Rethink Resource Management for IoT via Machine Learning</h3>
+<h2>Rethink Resource Management for IoT via Machine Learning</h2>
 <p>Optimally allocating limited computing and communication resources is a crucial task in resource-limited IoT environments. To
 tackle <b>(Q2)</b>, I have provided affirmative answers to the following intermediate questions:</p> 
   
@@ -165,7 +167,8 @@ tackle <b>(Q2)</b>, I have provided affirmative answers to the following interme
 <p><b>T. Chen</b>, S. Barbarossa, X. Wang, G. Giannakis and Z.-L. Zhang, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1810.11613.pdf">Learning and Management for Internet-of-Things: Accounting for Adaptivity and Scalability</a>,’’ <i> Proceedings of the IEEE</i>, to appear, 2018.
  </p>
 
-<h4><li>Statistical learning viewpoint of resource management</li></h4>
+<!-- <h4><li>Statistical learning viewpoint of resource management</li></h4> -->
+<h3>Statistical learning viewpoint of resource management</h3>	
 To date, most resource management schemes for IoT are based on a pure optimization viewpoint (e.g., the dual (sub)gradient method), which incur large queueing delays and slow convergence. From the vantage point of IoT, our fresh
 idea is to leverage the abundant historical data collected by devices, and formulate the resource
 management problem as an empirical risk minimization (ERM) — a central topic of statistical machine
@@ -181,7 +184,7 @@ improve the emerging performance tradeoff by an order of magnitude. Preliminary 
 direction have also played a key role in helping our group receive the NSF CCSS grant. To demonstrate
 the impact of this work, we have applied it to mobile computing and smart grid tasks.</p>
 <p><table class="imgtable"><tr><td>
-<img src="figures/statlearn.png" alt="need photo here" width="500" height="210" />&nbsp&nbsp&nbsp&nbsp<img src="figures/statlearn1.png" alt="need photo here" width="680" height="240" /></td>
+<img src="figures/statlearn.png" alt="need photo here" width="500" height="210" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="figures/statlearn1.png" alt="need photo here" width="650" height="210" /></td>
 <td align="left"></td></tr></table></p>
   
 <p><b>Recent publications</b>:</p>
@@ -196,7 +199,9 @@ the impact of this work, we have applied it to mobile computing and smart grid t
 Network Function Virtualization for Service Chaining</a>,’’ <i>IEEE Transactions on Mobile Computing</i>, to appear 2019. </p>
 </li>   
 </ol>
-<h4><li>Model-free interactive management for edge computing</li></h4>
+
+<!-- <h4><li>Model-free interactive management for edge computing</li></h4> -->
+<h3>Model-free interactive management for edge computing</h3>
 Typically, solving resource allocation
 problems necessitates knowledge of the models that map a resource allocation decision to its cost
 or utility; e.g., the model that maps transmit-power to the bit rate in communication systems. However,
@@ -220,7 +225,8 @@ direction were among the top 10 nominated for the best paper award in the 2017 I
 </li>
 </ol>
   
-<h4><li>Stochastic optimization for networked cyber-physical systems</li></h4>
+<!-- <h4><li>Stochastic optimization for networked cyber-physical systems</li></h4> -->
+<h3>Stochastic optimization for networked cyber-physical systems</h3>
 <p>Cyber-physical systems (CPS) are systems in which communication, computation, and control are tightly coupled and interacting with the physical world. The complexity of CPS grows when a group of task-specific systems pool their resources and capabilities together to create a networked system offering more advanced functionality. 
 A system of systems in this type is referred to a networked CPS. In order to properly manage networked CPS, most existing approaches assume that a CPS operator can obtain perfect (future) information of CPS all times, which requires perfect computation/communication/sensing from each subsystem. Leveraging stochastic optimization toolboxes, we have tackled online resource management problems (in different forms) for data centers, smart grids, and renewable-enabled next-generation communication systems, where the perfect information about the underlying systems is not available.</p>
 
