@@ -14,8 +14,8 @@ body {
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
-	background-image:url('figures/umnphoto.jpg');
-	background-repeat:repeat;
+/* 	background-image:url('figures/umnphoto.jpg');
+	background-repeat:repeat; */
 }
 
 #layout-menu {
