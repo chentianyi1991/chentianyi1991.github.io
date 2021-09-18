@@ -23,42 +23,74 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1> ECSE 4840 Introduction to Machine Learning </h1>
-<div id="subtitle"><a href="https://ecse.rpi.edu/~chent18/">Tianyi Chen</a>, Fall 2021</div>  
+<h1> ECSE 4500/6500 Distributed Systems </h1>
+<div id="subtitle"><a href="https://ecse.rpi.edu/~chent18/">Tianyi Chen</a>, Spring 2021
+</div></div> 
 
 <table class="imgtable"><tr><td>
 <img src="figures/intro_ml.png" alt="alt text" width="500 px" height="IMGLINKTARGET" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <h2>Course Information </h2>
-<p><b>Meeting Times</b>: M R: 2:00 PM – 3:20 PM <br />
-<b>Classroom</b>: Greene Building 120<br />
-<b>Instructor</b>: Tianyi Chen;&nbsp; <b>Office Hours</b>: Wednesdays at 5 pm – 6 pm<br />
-<b>Teaching Assistant</b>: Heshan Fernando;&nbsp; <b>Office Hours</b>: Tuesdays at 4 pm – 6 pm</p>
+<p><b>Meeting Times</b>: Mon Thu: 10:10 AM - 11:30 AM <br />
+<b>Webex link</b>: https://rensselaer.webex.com/meet/chent18<br />
+<b>Instructor</b>: Tianyi Chen;&nbsp; <b>Office Hours</b>: Mondays at 5 pm – 6 pm<br />
+<b>Teaching Assistant</b>: Xuefei Li;&nbsp; <b>Office Hours</b>: Wednesdays at 5 pm – 7 pm</p>
 
 <h2>Course Description </h2>
-<p>A broad introduction to statistical machine learning. Topics include supervised learning: generative/discriminative learning, parametric/non-parametric learning, neural networks, support vector machines; unsupervised learning: clustering, dimensionality reduction, kernel methods; learning theory: bias/variance tradeoffs, practical advice; online learning and reinforcement learning. Recent applications of machine learning, such as to data mining, robot navigation, speech recognition, image processing, and signal processing.</p>
+<p>This course is neither about hardware implementation nor design of distributed systems. This is a course about algorithms and simulations of parallel and distributed optimization. The course covers parallel and distributed optimization algorithms and their analyses that are suitable for large-scale and distributed problems arising in machine learning and signal processing.</p>
 
 <h2>Prerequisites </h2>
-<p>This course is intended for qualified undergraduate students with a strong mathematical and programming background. Undergraduate level coursework in linear algebra, calculus, probability, and statistics is suggested. A background in programming (e.g., Python and Matlab) is also necessary for the problem sets. At RPI, the required courses are MATH 2010 and ESCE 2500, or permission by instructor. 
+<p>This course is intended for graduate students and qualified undergraduate students with a strong mathematical and programming background. Undergraduate level coursework in linear algebra, calculus, probability, and statistics is suggested. A background in programming (e.g., Python and Matlab) is also necessary for the problem sets. A background in optimization and machine learning is also preferred. At RPI, the required courses are MATH 2010 and ESCE 2500, and the suggested courses are MATP4820 ECSE 4840, or permission by instructor. 
 </p>
+  
+<h2>Student Learning Outcomes</h2>
+<p>After taking the course, <b>undergraduate students</b> are expected to know:<br />
+1.	how to formulate a distributed optimization problem from real-world learning, estimation, and control problems in distributed systems;<br />
+2.	how to implement numerically stable algorithms to solve real-world engineering problems in distributed systems;<br />
+3.	how to qualitatively evaluate the efficiency of a distributed algorithm for various applications in distributed systems.</p>
+
+<p>In addition to the above, <b>graduate students</b> are also expected to know:<br />
+1.	how to estimate the per-iteration complexity, namely, counting the number of arithmetic operations of a distributed optimization algorithm;<br />
+2.	how to design and modify numerically stable algorithms to solve real-world engineering problems for various applications in distributed systems.</p>
 
 <h2>Grading Criteria </h2>
-<p> Homework Assignments: total 8, 40% <br />
-Term Exams: total 2, 30% + 30%  </p>
+<p> <b>Homework assignments</b>: total 6, 60% <br />
+<b>Course project</b>: Proposal 5% + Presentation 10% + Report 25% <br />
+ECSE 4500 – Group project (1-2 students). It can be either theoretic or experimental, with approval from the instructor. You are encouraged to combine your current research with your term project.<br />
 
+ECSE 6500 - Individual project. It can be either theoretic or experimental, with approval from the instructor. You are encouraged to combine your current research with your term project.</p>
+
+<h2>Optional References</h2>
+<p>
+1.	Dimitri P. Bertsekas and John N. Tsitsiklis, "<i>Parallel and Distributed Computation: Numerical Methods</i>", Athena Scientific, 2015;<br />
+2.	Stephen Boyd,  Neal Parikh, Eric Chu, Borja Peleato and Jonathan Eckstein, “<i>Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers</i>,” Foundation and Trends Machine Learning, 2011;<br />
+3.	Guanghui Lan, “<i>Lectures on Optimization Methods for Machine Learning</i>,” preprint, 2019; 
+4.	Ernest Ryu and Wotao Yin, “<i>A First Course in Large-Scale Optimization</i>,” preprint, 2020.
+  </p>
+  
 <h2>Course Content </h2>
-<p> 1.	Review of probability and linear algebra.<br />
-2.	Supervised learning setup.<br />
-3.	Perceptron. Exponential family. Generalized linear models.<br />
-4.	Gaussian discriminant analysis. Naive Bayes.<br />
-5.  Support vector machines.<br />
-6.	Kernel methods. Neural networks.<br />
-7.	Bias - variance. Regularization.<br />
-8.	K-Means. Gaussian Markov Model. Expectation maximization.<br />
-9.	Principal and independent component analysis.<br />
-10.	Online learning and regret analysis.<br />
-11.	Markov decision process<br />
-12.	Value iteration and policy iteration</p>
+<p> 1.	Optimization basics and complexity measures<br />
+2.	Basic machine learning models<br />
+3.	Parallel and distributed architectures  <br />
+4.	Synchronization issues in parallel and distributed algorithms <br />
+5.	Communication aspects of parallel and distributed systems <br />
+6.	Synchronous distributed algorithms<br />
+<ul> a)	Distributed gradient descent<br />
+b)	Distributed/local stochastic gradient descent<br />
+c)	Distributed variance reduced stochastic gradient<br />
+</ul>  
+7.	Synchronous decentralized algorithms<br />
+<ul>a)	Decentralized gradient descent<br />
+b)	Decentralized ADMM<br />
+c)	Decentralized stochastic gradient descent<br /></ul>  
+8.	Asynchronous distributed and decentralized algorithms<br />
+9.	Decentralized algorithms with time-varying topology <br />
+10.	Applications in machine learning, signal processing and control<br />
+<ul> a) Federated learning<br />
+b) Distributed reinforcement learning<br />
+c) Distributed power system state estimation<br />
+d) Distributed parameter estimation in sensor networks
+</p></ul>  
 
 
 <div id="footer">
