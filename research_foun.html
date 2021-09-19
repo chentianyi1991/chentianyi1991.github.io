@@ -38,7 +38,6 @@
 		<p></p>		
     <figcaption>
 	<strong>
-<!-- 		Machine Learning and Optimization for Internet-of-Things  -->
 	</strong> 
 	</figcaption>
 	</figure>
@@ -52,20 +51,83 @@
       }
     }
   </script>	
-
-<!-- Conceptually speaking, IoT foresees an intelligent system with ubiquitous smart devices.  -->
 	
-<p>I work at the intersection of <b>optimization</b>, <b>machine learning</b>, and <b>networked systems</b>. My current research focuses on developing inter-disciplinary approaches for networked systems such as the emerging IoT paradigm.   
-My research has contributed answers to the following intertwined questions.</p>
+<p>It is estimated that by 2020, there will be more than 50 billion devices connected through the Internet.
+To tackle <b>(Q1)</b>, it is evident that scalability and heterogeneity are two key challenges for IoT.
+Scalability is not only about computational efficiency, but also about communication overhead of
+running learning algorithms at the network edge; while heterogeneity comes from both the wide
+range of hardware devices, as well as the diversity of IoT tasks offered by each device. Results in this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018.</p>
   
-<p><b>(Q1)</b>: <i>How can we scale up machine learning approaches for efficient IoT implementation?</i><br />
-<b>(Q2)</b>: <i>How learning advances can be leveraged to enhance resource allocation policies for IoT?</i></p>
+
+<h3>Federated learning at the network edge</h3>
+Conventional machine learning approaches require centralizing users’ data in a remote data center, which is known as cloud computing. In cloud computing, users’ data from the devices, such as smartphones, are transferred to <a href="https://www.youtube.com/watch?v=XZmGGAbHqa0">the data centers</a> which execute learning algorithms on CPU and GPU clusters. 
+The extracted information is then transferred back to users’ devices.
+Considering the massive amount of IoT devices, centralized learning using cloud computing becomes computationally intractable, and rises
+serious privacy concerns. To date, the widespread consensus is that besides data centers at the
+cloud, future machine learning tasks have to be performed starting from the network edge, namely
+mobile devices. This is the overarching goal of <a href="https://youtu.be/gbRJPa9d-VU">federated learning</a>. Towards this goal, my research efforts are centered on reducing the communication overhead
+during the federated learning processes. Relevant results have been published in top machine learning venues (NeurIPS
+2018 and AAAI 2019). It is worth mentioning that our learning methods (<tt>LAG-WK</tt> and <tt>LAG-PS</tt>) with adaptive communication
+mechanism have been selected as the spotlight presentation in NeurIPS, which establish
+a provably reduced communication complexity in federated learning. </p>
+<p><table class="imgtable"><tr><td>
+<img src="figures/fedcomp.png" alt="need photo here" width="350" height="230" />&nbsp&nbsp&nbsp&nbsp&nbsp <img src="figures/fedcomp1.png" alt="need photo here" width="650" height="230" /></td>
+<td align="left"></td></tr></table></p>
+	
+<p><b>Related publications</b>: </p>
+<ol>	
+<p><li>T. Chen, G. B. Giannakis, T. Sun and W. Yin, &lsquo;&lsquo;<a href="http://papers.nips.cc/paper/7752-lag-lazily-aggregated-gradient-for-communication-efficient-distributed-learning.pdf">LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning</a>,’’ <i>Proc. of Neural Information Processing Systems</i> (<tt>NeurIPS</tt>), Montreal, Canada, December 3-8, 2018. <a href="https://nips.cc/Conferences/2018/Schedule?showEvent=12765"><b>(Spotlight talk</b></a> and <a href="https://www.dropbox.com/s/m80ytd2kqn4b72p/poster_nips.pdf?dl=0"><b>poster)</b></a> </li> </p>
+	
+<p><li>J. Sun, T. Chen, G. B. Giannakis, and Z. Yang, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1909.07588.pdf">Communication-Efficient Distributed Learning via Lazily Aggregated Quantized Gradients</a>,’’ <i>Proc. of Neural Information Processing Systems</i> (<tt>NeurIPS</tt>), Vancouver, Canada, December 3-8, 2019.</li> </p>	
+
+<p><li>L. Li, W. Xu, T. Chen, G. B. Giannakis, and Q. Ling, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1811.03761.pdf">RSA: Byzantine-Robust Stochastic Aggregation Methods for Distributed Learning from Heterogeneous Datasets,’’</a> <i>Proc. of the Assoc. for the Advanc. of Artificial Intelligence </i> (<tt>AAAI</tt>), Honolulu, Hawai, January 27-February 1, 2019. (Oral presentation)</li></p> 
+
+<p><li>B. Li, T. Chen, and G. B. Giannakis, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1807.03205.pdf">Bandit Online Learning with Unknown Delays,</a>'' <i>Proc. of Intl. Conf. on Artificial Intell. and Stat.</i> (<tt>AISTATS</tt>), Naha, Japan, April 2019. </li></p>
+</ol>
+
+
+<h3>Federated reinforcement learning over networked agents</h3>
+<!-- <h4> <li>Federated reinforcement learning over networked agents</li> </h4> -->
+<p>From learning to control, reinforcement learning (RL) will play a critical role in many complex IoT tasks. Popular RL algorithms are originally developed for the single-agent tasks, but a number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles (UAV), involve multiple agents operating in a distributed fashion. Today, a group of coordinated UAVs can perform <a href="https://www.youtube.com/watch?v=GtSXGriM8-Q">traffic control</a>, <a href="https://www.youtube.com/watch?v=0xUpXt6te-I">food delivery</a>, rescue and search tasks. To coordinate agents distributed over a network however, information exchange is necessary, which requires frequent communication among agents. 
+For resource-limited devices (e.g., battery-powered UAVs), communication is costly and the latency caused by frequent communication becomes the bottleneck of overall performance. In this context, we have studied the distributed RL (DRL) problem that covers multi-agent collaborative RL and parallel RL. 
+Generalizing our theory and algorithms for supervised learning, we have developed an exciting communication-efficient algorithm (<tt>LAPG</tt>) for DRL, which builds on the policy gradient (<tt>PG</tt>) method. Remarkably, our new method can achieve the same order of convergence rates as vanilla policy gradient under standard conditions; and, ii) reduce the communication rounds required to achieve
+a targeted learning accuracy, when the distributed agents are heterogeneous. </p>
+	
+<p><table class="imgtable"><tr><td>
+<img src="figures/DRLtask.png" alt="need photo here" width="350" height="230" />&nbsp&nbsp&nbsp&nbsp <img src="figures/DRLtask1.png" alt="need photo here" width="650" height="230" /></td>
+<td align="left"></td></tr></table></p>
+	
+<p><b>Related publication</b>: </p>
+<ol>
+<p><li>T. Chen, K. Zhang, G. B. Giannakis, and T. Ba&#351;ar, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1812.03239.pdf">Communication-Efficient Distributed Reinforcement Learning,’’</a> Submitted to  <i>Journal of Machine Learning Research</i> (<tt>JMLR</tt>), December 2018. </li> </p>
+</ol>
+
   
-<p>The overarching objective of my research is to wed state-of-the-art optimization and machine learning
-tools with the emerging IoT paradigm, in a way that they can inspire and reinforce the development
-of each other, with the ultimate goal of benefiting our daily life.<br /> 
-In the pursuit of the research goals, my research can be summarized into two major areas.</p>
-  
+ 
+<h3>Scalable function approximation with unknown dynamics</h3>	
+Function approximation emerges at the core of machine learning tasks such as regression, classification, dimensionality reduction, as well as reinforcement learning. Kernel methods exhibit well-documented performance in function
+approximation. However, the major challenges of implementing existing methods to IoT come
+from two sources: i) the “curse” of dimensionality in kernel-based learning; and, ii) the need to
+track time-varying functions with unknown dynamics. In this context, we have developed a scalable
+multi-kernel learning scheme to obtain the sought nonlinear learning function ‘on the fly.’
+To further boost performance in unknown environments, we also developed an adaptive learning
+scheme, which accounts for the unknown dynamics. So far, results in this direction have appeared
+in the top artificial intelligence (AI) venue AISTATS and the flagship machine learning journal JMLR. Our
+scalable algorithm is uniquely capable of tracking learning functions in IoT environments with unknown
+dynamics, and with analytical as well as empirical performance guarantees. </p>
+<!-- <p><table class="imgtable"><tr><td>
+<img src="figures/AdaRaker.png" alt="need photo here" width="450" height="250" />&nbsp;</td>
+<td align="left"></td></tr></table></p> -->
+<p><b>Related publications</b>: </p>
+<ol>
+<p><li>Y. Shen*, T. Chen*, and G. B. Giannakis, &lsquo;&lsquo;<a href="http://proceedings.mlr.press/v84/shen18a/shen18a.pdf">Online Ensemble Multi-Kernel Learning Adaptive to Nonstationary and Adversarial Environments</a>,’’ <i>Proc. of Intl. Conf. on Artificial Intell. and Stat.</i> (<tt>AISTATS</tt>), Lanzarote, Canary Islands, April 2018. (equal contribution) </li></p>
+
+<p><li>Y. Shen, T. Chen, and G. B. Giannakis, &lsquo;&lsquo;<a href="jmlr2019_vfinal.pdf">Random Feature-Based Online Multi-Kernel Learning in Environments
+with Unknown Dynamics</a>'' <i>Journal of Machine Learning Research</i> (<tt>JMLR</tt>), to appear 2019.</li></p>
+</ol>
+
+
+
 <div id="footer">
 <div id="footer-text">
 Page generated by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
