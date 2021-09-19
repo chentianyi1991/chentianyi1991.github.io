@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="cty.png" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Tianyi Chen 陈天翼</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="people.html">People</a></div>  	
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>    	
+<div class="menu-item"><a href="experience.html">Experience</a></div>
+<div class="menu-item"><a href="awards.html">Awards</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research</h1>
+<div id="subtitle"></div>
+</div>
+ 
+<div id="main">
+	<br>
+	<figure style="float:right; 
+	 margin:0px 0px 15px 15px; 
+	 padding: 0px;
+	text-align: justify;">
+    <img height="250" width="330" src="figures/resview.png" alt="" title="" > 
+<!-- 		    <img height="270" width="485" src="figures/overview.png" alt="" title="" >  -->
+		<p></p>		
+    <figcaption>
+	<strong>
+<!-- 		Machine Learning and Optimization for Internet-of-Things  -->
+	</strong> 
+	</figcaption>
+	</figure>
+<script type="text/javascript">
+    function toggleAbstract(divid) {
+      var x = document.getElementById(divid);
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+      }
+    }
+  </script>	
+  
+<h2>Rethink Resource Management via Machine Learning</h2>
+<p>Optimally allocating limited computing and communication resources is a crucial task in resource-limited IoT environments. To
+tackle <b>(Q2)</b>, I have provided affirmative answers to the following intermediate questions:</p> 
+  
+<p><b> i)</b> Can we learn from historical data to improve the existing resource management schemes?<br /> 
+<b>ii)</b> Can we develop resource management schemes when the underlying models are not known? <br /> </p>
+  
+<p>The key novelty here is innovative statistical and interactive learning tailored for resource management tasks in IoT. Results in this direction have been disseminated as part of <a href="http://globecom2018.ieee-globecom.org/program/tutorials#tut09">a tutorial</a> we co-presented at GLOBECOM 2018, and summarized in our <b>overview paper</b>.</p>
+  
+ 
+	
+<p><li>T. Chen, S. Barbarossa, X. Wang, G. B. Giannakis and Z.-L. Zhang, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1810.11613.pdf">Learning and Management for Internet-of-Things: Accounting for Adaptivity and Scalability</a>,’’ <i> Proceedings of the IEEE</i> (<tt>PIEEE</tt>), to appear, 2018.
+ </li></p>
+
+<!-- <h4><li>Statistical learning viewpoint of resource management</li></h4> -->
+<h3>Statistical learning viewpoint of resource management</h3>	
+To date, most resource management schemes for IoT are based on a pure optimization viewpoint e.g., the dual (sub)gradient method (<tt>SDG</tt>), which incur large queueing delays and slow convergence. From the vantage point of IoT, our fresh
+idea is to leverage the abundant historical data collected by devices, and formulate the resource
+management problem as an empirical risk minimization (ERM) — a central topic of statistical machine
+learning research. In this context, we have developed a fast convergent algorithm. By
+cross-fertilizing advances of learning theory, we have also established the sample complexity of
+learning a near-optimal resource management policy. To boost performance in dynamic settings,
+we further introduced a learn-and-adapt resource management framework (<tt>LA-SDG</tt>), which capitalizes
+on the following features: (f1) it learns from historical data using advanced statistical learning
+tools; and, (f2) it efficiently adapts to IoT dynamics, and thus enables operational flexibility. Our
+proposed algorithms have been published in top signal processing and network optimization
+journals, where we have analytically shown that this novel algorithmic design can provably
+improve the emerging performance tradeoff by an order of magnitude. To demonstrate
+the impact of this work, we have applied it to mobile computing and smart grid tasks.</p>
+<p><table class="imgtable"><tr><td>
+<!-- <img src="figures/statlearn.png" alt="need photo here" width="520" height="230" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="figures/statlearn1.png" alt="need photo here" width="640" height="230" /></td> -->
+<img src="figures/statlearn.png" alt="need photo here" width="1100" height="220" /></td>	
+<td align="left"></td></tr></table></p>
+  
+<p><b>Recent publications</b>:</p>
+<ol>
+<p><li>T. Chen, A. Mokhtari, X. Wang, A. Ribeiro and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8422.pdf">Stochastic Averaging for Constrained Optimization with Application to Online Resource Allocation</a>,’’ <i>IEEE Transactions on Signal Processing</i>, vol. 65, no. 12, pp. 3078-3093, Jun. 2017. </li></p>
+
+<p><li>T. Chen, Q. Ling and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8437.pdf">Learn-and-Adapt Stochastic Dual Gradients for Network Resource Allocation</a>,’’<i>IEEE Transactions on Control of Network Systems</i>, vol. 5, no. 4, pp. 1941-1951, December 2018. </li></p>
+
+<p><li>B. Li, T. Chen, X. Wang and G. B. Giannakis, &lsquo;&lsquo;<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8214260">Real-time Optimal Energy Management with Reduced Battery Capacity Requirements</a>,’’ <i>IEEE Transactions on Smart Grid</i>, to appear 2019. </li></p>
+ 
+<p><li>X. Chen, W. Ni, T. Chen, I. Collins, X. Wang and G. B. Giannakis, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1804.07051.pdf">Multi-Timescale Optimization of
+Network Function Virtualization for Service Chaining</a>,’’ <i>IEEE Transactions on Mobile Computing</i>, to appear 2019. </li> </p>
+</ol>  
+
+
+ 
+<h3>Model-free interactive management for edge computing</h3>
+Typically, solving resource allocation
+problems necessitates knowledge of the models that map a resource allocation decision to its cost
+or utility; e.g., the model that maps transmit-power to the bit rate in communication systems. However,
+such models may not be available in IoT, because i) the utility function capturing e.g., service
+latency or reliability in edge computing, can be hard to model; and, ii) even if modeling is possible,
+IoT devices with limited resources may not afford the complexity of running sophisticated inference
+algorithms. Hence, another important ingredient of my research is to account for the feedback
+limited nature of resource allocation tasks in IoT. To account for physical constraints, we have considerably
+generalized the interactive learning tools for unconstrained problems to solve challenging constrained resource allocation problems. Tailored for edge computing scenarios, we further developed a class of model-free online learning schemes. Our new algorithms (<tt>BanSaP</tt>) come with provable performance guarantees, even when knowledge about the underlying system models can be obtained only through repeated interactions with the environment. Results in this
+direction were among the top 10 nominated for the best paper award in the 2017 IEEE Asilomar conference.</p>
+<p><table class="imgtable"><tr><td>
+<!-- <img src="figures/modfree.png" alt="need photo here" width="450" height="240" />&nbsp&nbsp&nbsp&nbsp&nbsp <img src="figures/modfree1.png" alt="need photo here" width="720" height="240" /></td> -->
+<img src="figures/modfree.png" alt="need photo here" width="1100" height="230" /></td>
+<td align="left"></td></tr></table></p>
+<p><b>Related publications</b>:</p>
+<ol>
+<p><li>T. Chen, Q. Ling and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8442.pdf">An Online Convex Optimization Approach to Proactive Network Resource Allocation</a>,’’ <i>IEEE Transactions on Signal Processing</i>, vol. 65, no. 24, pp. 6350-6364, Dec. 2017. </li></p>
+
+<p><li>T. Chen, Q. Ling, Y. Shen and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8498.pdf">Heterogeneous Online Learning for Thing-Adaptive Low-Latency Fog Computing in IoT</a>,’’ <i>IEEE Internet of Things Journal</i>, to appear 2018.</li></p>
+
+<p><li>T. Chen and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8470.pdf">Bandit Convex Optimization for Scalable and Dynamic IoT Management</a>,’’ <i>IEEE Internet of Things Journal</i>, to appear 2018. </li></p>
+</ol>
+
+  
+ 
+<h3>Stochastic optimization for networked cyber-physical systems</h3>
+<p>Cyber-physical systems (CPS) are systems in which communication, computation, and control are tightly coupled and interacting with the physical world. The complexity of CPS grows when a group of task-specific systems pool their resources and capabilities together to create a networked system offering more advanced functionality. 
+A system of systems in this type is referred to a networked CPS. In order to properly manage networked CPS, most existing approaches assume that a CPS operator can obtain perfect (future) information of CPS all times, which requires perfect computation/communication/sensing from each subsystem. Leveraging stochastic optimization toolboxes, we have tackled online resource management problems (in different forms) for <b>data centers, smart grids, and next-generation communication systems</b>, where the perfect information about the underlying systems is not available.</p>
+
+<p><b>Related publications</b>:</p>
+<ol>
+<p><li>T. Chen, X. Wang and G. B. Giannakis</b>, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8353.pdf">Cooling-Aware Energy and Workload Management in Data Centers via Stochastic Optimization</a>,’’ <i>IEEE Journal on Special Topics in Signal Processing</i>, Vol. 10, No. 2, pp. 402-415, Mar. 2016. </li></p>
+
+<p><li>T. Chen, Y. Zhang X. Wang, and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8373.pdf">Robust Workload and Energy Management for Sustainable Data Centers</a>,’’ <i>IEEE  Journal on Selected Areas in Communications</i>, Vol. 34, No. 3, pp. 651-664, Mar. 2016. </li></p>
+
+<li>T. Chen, A. Marques and G. B. Giannakis, &lsquo;&lsquo;<a href="http://www.dtc.umn.edu/s/resources/spincom8400.pdf">DGLB: Distributed Stochastic Geographical Load Balancing over Cloud Networks</a>,’’ <i>IEEE Transactions on Parallel and Distributed Systems</i>, vol. 28, no. 7, pp. 1866-1880, July 2017. </li></p>
+
+<p><li>X. Wang, T. Chen, X. Chen, X. Zhou and G. B. Giannakis, &lsquo;&lsquo;<a href="https://ieeexplore.ieee.org/document/7544445/">Dynamic Resource Allocation for Smart-Grid Powered MIMO Downlink Transmissions</a>,’’ <i>IEEE Journal on Selected Areas in Communications</i>, Vol. 34, No. 12, pp. 3354 - 3365, Dec. 2016. </li></p>
+</ol>
+
+
+<div id="footer">
+<div id="footer-text">
+Page generated by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
