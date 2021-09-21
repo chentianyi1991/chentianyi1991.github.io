@@ -54,17 +54,14 @@
 		
  
 <p>It is estimated that by 2020, there will be more than 50 billion devices connected through the Internet.
-In this context, it is evident that scalability and heterogeneity are two key challenges for IoT.
+In this context, it is evident that scalability and robustness are two key concerns of learning on devices.
 Scalability is not only about computational efficiency, but also about communication overhead of
-running learning algorithms at the network edge; while heterogeneity comes from both the wide
-range of hardware devices, as well as the diversity of IoT tasks offered by each device. Results in this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018.</p>
+running learning algorithms at the network edge; while robustness is concerned with changing system dynamics, varying network topologies, data leakage and adversarial attacks. 
+Results in this line of research have also been presented as a part of a tutorial we delivered at MILCOM 2018.</p>
   
 
 <h3>Federated learning at the network edge</h3>
-Conventional machine learning approaches require centralizing users’ data in a remote data center, which is known as cloud computing. In cloud computing, users’ data from the devices, such as smartphones, are transferred to <a href="https://www.youtube.com/watch?v=XZmGGAbHqa0">the data centers</a> which execute learning algorithms on CPU and GPU clusters. 
-The extracted information is then transferred back to users’ devices.
-Considering the massive amount of IoT devices, centralized learning using cloud computing becomes computationally intractable, and rises
-serious privacy concerns. To date, the widespread consensus is that besides data centers at the
+Conventional machine learning approaches require centralizing users’ data in a remote data center, which is known as cloud computing. In cloud computing, users’ data from the devices, such as smartphones, are transferred to <a href="https://www.youtube.com/watch?v=XZmGGAbHqa0">the data centers</a> which execute learning algorithms on CPU and GPU clusters. Considering the massive amount of IoT devices, centralized learning using cloud computing becomes computationally intractable, and rises serious privacy concerns. To date, the widespread consensus is that besides data centers at the
 cloud, future machine learning tasks have to be performed starting from the network edge, namely
 mobile devices. This is the overarching goal of <a href="https://youtu.be/gbRJPa9d-VU">federated learning</a>. Towards this goal, my research efforts are centered on reducing the communication overhead
 during the federated learning processes. Our learning methods (<tt>LAG-WK</tt> and <tt>LAG-PS</tt>) with adaptive communication
@@ -87,44 +84,21 @@ a provably reduced communication complexity in federated learning. </p>
 
 <h3>Distributed reinforcement learning over networked agents</h3>
 <!-- <h4> <li>Federated reinforcement learning over networked agents</li> </h4> -->
-<p>From learning to control, reinforcement learning (RL) will play a critical role in many complex IoT tasks. Popular RL algorithms are originally developed for the single-agent tasks, but a number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles (UAV), involve multiple agents operating in a distributed fashion. Today, a group of coordinated UAVs can perform <a href="https://www.youtube.com/watch?v=GtSXGriM8-Q">traffic control</a>, <a href="https://www.youtube.com/watch?v=0xUpXt6te-I">food delivery</a>, rescue and search tasks. To coordinate agents distributed over a network however, information exchange is necessary, which requires frequent communication among agents. 
-For resource-limited devices (e.g., battery-powered UAVs), communication is costly and the latency caused by frequent communication becomes the bottleneck of overall performance. In this context, we have studied the distributed RL (DRL) problem that covers multi-agent collaborative RL and parallel RL. 
-Generalizing our theory and algorithms for supervised learning, we have developed an exciting communication-efficient algorithm (<tt>LAPG</tt>) for DRL, which builds on the policy gradient (<tt>PG</tt>) method. Remarkably, our new method can achieve the same order of convergence rates as vanilla policy gradient under standard conditions; and, ii) reduce the communication rounds required to achieve
-a targeted learning accuracy, when the distributed agents are heterogeneous. </p>
+<p>From learning to control, reinforcement learning (RL) will play a critical role in many complex IoT tasks. Popular RL algorithms are originally developed for the single-agent tasks, but a number of IoT tasks such as autonomous vehicles, coordination of unmanned aerial vehicles (UAV), involve multiple agents operating in a distributed fashion. Today, a group of coordinated UAVs can perform <a href="https://www.youtube.com/watch?v=GtSXGriM8-Q">traffic control</a>, <a href="https://www.youtube.com/watch?v=0xUpXt6te-I">food delivery</a>, rescue and search tasks. In this context, my research efforts in this direction are centered on studying the convergence rates, sample complexity, communication complexity and robustness of popular distributed and multi-agent RL (MARL) algorithms and characterizing their scaling effect as the number of distributed nodes increases.</p>
 	
-<p><table class="imgtable"><tr><td>
+<!-- <p><table class="imgtable"><tr><td>
 <img src="figures/DRLtask.png" alt="need photo here" width="350" height="230" />&nbsp&nbsp&nbsp&nbsp <img src="figures/DRLtask1.png" alt="need photo here" width="650" height="230" /></td>
-<td align="left"></td></tr></table></p>
+<td align="left"></td></tr></table></p> -->
 	
 <p><b>Related publication</b>: </p>
 <ol>
-<p><li>T. Chen, K. Zhang, G. B. Giannakis, and T. Ba&#351;ar, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1812.03239.pdf">Communication-Efficient Policy Gradient Methods for Distributed Reinforcement Learning,’’</a><i>IEEE Transactions on Control of Network Systems</i> (<tt>TCNS</tt>), December 2020. </li> </p>
+<p><li>T. Chen, K. Zhang, G. B. Giannakis, and T. Ba&#351;ar, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1812.03239.pdf">Communication-efficient policy gradient methods for distributed reinforcement learning,’’</a><i>IEEE Transactions on Control of Network Systems</i> (<tt>TCNS</tt>), December 2020. </li> </p>
 <p><li>S. Lu, K. Zhang, T. Chen, T. Ba&#351;ar, and L. Horesh, &lsquo;&lsquo;<a href="https://arxiv.org/pdf/1812.03239.pdf">Decentralized policy gradient descent ascent for safe multi-agent reinforcement learning,’’</a><i>Proc. of the Assoc. for the Advanc. of Artificial Intelligence </i> (<tt>AAAI</tt>), virtual, February 2-9, 2021. </li> </p>	
+<p><li>Z. Wu, H. Shen, T. Chen, and Q. Ling, , &lsquo;&lsquo;<a href="https://arxiv.org/pdf/2012.15511.pdf">Byzantine-Resilient Decentralized TD Learning with Linear Function Approximation.,’’</a><i>IEEE Transactions on Signal Processing</i> (<tt>TSP</tt>), vol. 69, pp. 3839 - 3853, June 2021. </li> </p>	
 </ol>
 
   
  
-<h3>Scalable function approximation with unknown dynamics</h3>	
-Function approximation emerges at the core of machine learning tasks such as regression, classification, dimensionality reduction, as well as reinforcement learning. Kernel methods exhibit well-documented performance in function
-approximation. However, the major challenges of implementing existing methods to IoT come
-from two sources: i) the “curse” of dimensionality in kernel-based learning; and, ii) the need to
-track time-varying functions with unknown dynamics. In this context, we have developed a scalable
-multi-kernel learning scheme to obtain the sought nonlinear learning function ‘on the fly.’
-To further boost performance in unknown environments, we also developed an adaptive learning
-scheme, which accounts for the unknown dynamics. So far, results in this direction have appeared
-in the top artificial intelligence (AI) venue AISTATS and the flagship machine learning journal JMLR. Our
-scalable algorithm is uniquely capable of tracking learning functions in IoT environments with unknown
-dynamics, and with analytical as well as empirical performance guarantees. </p>
-<!-- <p><table class="imgtable"><tr><td>
-<img src="figures/AdaRaker.png" alt="need photo here" width="450" height="250" />&nbsp;</td>
-<td align="left"></td></tr></table></p> -->
-<p><b>Related publications</b>: </p>
-<ol>
-<p><li>Y. Shen*, T. Chen*, and G. B. Giannakis, &lsquo;&lsquo;<a href="http://proceedings.mlr.press/v84/shen18a/shen18a.pdf">Online Ensemble Multi-Kernel Learning Adaptive to Nonstationary and Adversarial Environments</a>,’’ <i>Proc. of Intl. Conf. on Artificial Intell. and Stat.</i> (<tt>AISTATS</tt>), Lanzarote, Canary Islands, April 2018. (equal contribution) </li></p>
-
-<p><li>Y. Shen, T. Chen, and G. B. Giannakis, &lsquo;&lsquo;<a href="jmlr2019_vfinal.pdf">Random Feature-Based Online Multi-Kernel Learning in Environments
-with Unknown Dynamics</a>'' <i>Journal of Machine Learning Research</i> (<tt>JMLR</tt>), to appear 2019.</li></p>
-</ol>
 
 
 
