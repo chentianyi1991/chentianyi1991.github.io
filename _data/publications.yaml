@@ -1,0 +1,669 @@
+papers:
+
+############# Selected Papers ##############
+  - title: "On Penalty-based Bilevel Gradient Descent Method."
+    authors: "Han Shen, Quan Xiao and <b>Tianyi Chen</b>."
+    venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2302.05185.pdf"
+    note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
+    code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
+    selected: y
+    recent: y
+    
+  - title: "Three-Way Trade-Off in Multi-Objective Learning: Optimization, Generalization and Conflict-Avoidance."
+    authors: "Lisha Chen, Heshan Fernando, Yiming Ying, and <b>Tianyi Chen</b>."
+    venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, vol 25, pp. 1-53, 2024."
+    paper_pdf: "https://www.jmlr.org/papers/volume25/23-1287/23-1287.pdf"
+    note: "<i>Shorter version in Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
+    code: "https://github.com/heshandevaka/Trade-Off-MOL"
+    poster: "https://www.dropbox.com/scl/fi/gucjt422nwxfluejd5q23/poster_MOL_tradeoff-A1.pdf?rlkey=jxkrco28ronb74i1q4qcunrx1&dl=0"
+    selected: y
+    recent: y
+    
+  - title: "Towards Exact Gradient-based Training on Analog In-memory Computing."
+    authors: "Zhaoxian Wu, Tayfun Gokmen, Malte J. Rasch and <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
+    paper_pdf: "https://openreview.net/pdf?id=5GwbKlBIIf"
+    poster: "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/96597.png?t=1731713210.0773137"
+    selected: y
+    recent: y
+    
+  - title: "Tighter Analysis of Alternating Stochastic Gradient Method for Stochastic Nested Problems."
+    authors: "<b>Tianyi Chen</b>, Yuejiao Sun and Wotao Yin."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Virtual, December 6-14, 2021. <b>(Spotlight)</b>."
+    paper_pdf: "https://arxiv.org/pdf/2106.13781.pdf"
+    poster: "https://www.dropbox.com/scl/fi/h4vym7xltl1kskfpr5bg2/alset_poster.pdf?rlkey=64ncl36s3f2df3eurgtok8yxr&dl=0"
+    selected: y
+
+  - title: "Catastrophic Data Leakage in Vertical Federated Learning."
+    authors: "Xiao Jin, Pin-Yu Chen, Chia-Yi Hsu, Chia-Mu Yu, and <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Virtual, December 6-14, 2021."
+    paper_pdf: "https://arxiv.org/pdf/2110.15122.pdf"
+    code: "https://github.com/DeRafael/CAFE"
+    selected: y    
+
+  - title: "LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning."
+    authors: "<b>Tianyi Chen</b>, Georgios B. Giannakis, Tao Sun and Wotao Yin."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Virtual, December 6-14, 2021."
+    paper_pdf: "http://papers.nips.cc/paper/7752-lag-lazily-aggregated-gradient-for-communication-efficient-distributed-learning.pdf"
+    poster: "https://www.dropbox.com/s/m80ytd2kqn4b72p/poster_nips.pdf?dl=0"
+    code: "https://github.com/chentianyi1991/LAG-code"
+    selected: y
+
+#########################  other papers/Recent #############################
+
+####  year =2024 ##########
+
+  - title: "FERERO: A Flexible Framework for Preference-Guided Multi-Objective Learning."
+    authors: "Lisha Chen, AFM Saif, Yanning Shen, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2412.01773"
+    code: "https://github.com/lisha-chen/FERERO/"
+    # data: "https://github.com/msaveski/twitter_perspective_taking"
+    selected: n
+    recent: y
+
+  - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints."
+    authors: "Liuyuan Jiang, Quan Xiao, Victor M Tenorio, Fernando Real-Rojas, Antonio G Marques, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2406.10148"
+    code: "https://github.com/Liuyuan999/Penalty_Based_Lagrangian_Bilevel"
+    poster: "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93267.png?t=1731605278.4146042"
+    selected: n
+    recent: y  
+
+  - title: "Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition."
+    authors: "X. Cui, AFM Saif, S. Lu, L. Chen, <b>T. Chen</b>, B. Kingsbury, and G. Saon."
+    venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing <b>(TASLP)</b>, December 2024."
+    paper_pdf: "https://arxiv.org/pdf/2412.08548"
+    code: "https://github.com/afmsaif/Joint-self-supervised-and-supervised-training-for-speech-models"
+    selected: n
+    recent: y  
+  
+  - title: "A Bilevel Optimization Method for Inverse Mean-Field Games."
+    authors: "J. Yu, Q. Xiao, <b>T. Chen</b>, and R. Lai."
+    venue: "Inverse Problems, September 2024."
+    paper_pdf: "https://arxiv.org/pdf/2401.05539"
+    selected: n
+
+  - title: "Large Language Models for Wireless Symbol Detection via In-Context Learning."
+    authors: "M. Abbas, K. Kar, and <b>T. Chen</b>."
+    venue: "Proc. of IEEE Global Comm. Conf. <b>(Globecom)</b>, Cape Town, South Africa, December 6 - 10, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2409.00124"
+    selected: n
+    recent: y  
+  
+  - title: "Transferable Learning of GCN Sampling Graph Data Clusters from Different Power Systems."
+    authors: "T. Wu, A. Scaglione, D. Arnold, and <b>T. Chen</b>."
+    venue: "Proc. of Annual Allerton Conf. Communication, Control, and Computing <b>(Allerton)</b>, Urbana, IL, September 25 - 27, 2024."
+    paper_pdf: "https://easychair.org/publications/preprint/KFPl"
+    selected: n
+
+ 
+  - title: "Enhancing In-context Learning via Linear Probe Calibration."
+    authors: "Momin Abbas, Yi Zhou, Parikshit Ram, Nathalie Baracaldo, Horst Samulowitz, Theodoros Salonidis, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics</i> <b>(AISTATS)</b>, Valencia, Spain, May 2-4, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2401.12406"
+    # code: "https://doi.org/10.7910/DVN/HDT2RN"
+    # data: "https://doi.org/10.7910/DVN/HDT2RN"
+    selected: n
+    recent: y
+
+  - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
+    authors: "Han Shen, Zhuoran Yang, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2402.06886"
+    # code: "https://github.com/facebookresearch/social-catalysts"
+    selected: n
+    recent: y
+
+  - title: "SF-DQN: Provable Knowledge Transfer using Successor Feature for Deep Reinforcement Learning."
+    authors: "Shuai Zhang, Heshan Devaka Fernando, Miao Liu, Keerthiram Murugesan, Songtao Lu, Pin-Yu Chen, <b>Tianyi Chen</b>, Meng Wang."
+    venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2405.15920"
+    # code: "https://github.com/sanzeed/balanced_influence_maximization"
+    # data: "https://github.com/sanzeed/balanced_influence_maximization"
+    selected: n
+    recent: y   
+  
+  - title: "M2ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization."
+    authors: "AFM Saif, L. Chen, X. Cui, S. Lu, B. Kingsbury, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. of the International Speech Communication Association <b>(Interspeech)</b>, Kos Island, Greece, September 1 - 5, 2024."
+    paper_pdf: "https://www.isca-archive.org/interspeech_2024/saif24_interspeech.pdf"
+    code: "https://github.com/afmsaif/M2ASR"
+    selected: n
+    recent: y   
+  
+  - title: "Joint Unsupervised and Supervised Training for Automatic Speech Recognition."
+    authors: "AFM Saif, X. Cui, H. Shen, S. Lu, B. Kingsbury, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Seoul, Korea, April 14 - 19, 2024."
+    paper_pdf: "https://arxiv.org/pdf/2401.06980"
+    selected: n
+  
+  - title: "Variance Reduction Can Improve Trade-Off In Multi-Objective Learning."
+    authors: "H. Fernando, L. Chen, S. Lu, P.-Y. Chen, M. Liu, S. Chaudhury, K. Murugesan, G. Liu, M. Wang, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Seoul, Korea, April 14 - 19, 2024."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "A Method for Bilevel Optimization With Convex Lower-Level Problems."
+    authors: "H. Shen, S. Paternain, G. Liu, R. Kompella, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Seoul, Korea, April 14 - 19, 2024."
+    paper_pdf: ""
+    selected: n
+
+
+#############  year = 2023 ###############
+
+  - title: "Three-way trade-off in multi-objective learning: Optimization, generalization and conflict-avoidance."
+    authors: "Lisha Chen, Heshan Fernando, Yiming Ying, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
+    paper_pdf: "https://arxiv.org/pdf/2305.20057"
+    selected: n
+    
+
+  - title: "An alternating optimization method for bilevel problems under the Polyak-Łojasiewicz condition."
+    authors: "Quan Xiao, Songtao Lu, <b>Tianyi Chen</b>."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
+    paper_pdf: "https://arxiv.org/pdf/2306.02422"
+    selected: n
+    recent: y
+     
+  - title: "On Penalty-based Bilevel Gradient Descent Method."
+    authors: "Han Shen, Q. Xiao, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Machine Learning <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
+    paper_pdf: "https://arxiv.org/pdf/2302.05185"
+    # video: "https://drive.google.com/file/d/0B9-P1m1JkZA7UTRuMUFWcTNueXM/view"
+    selected: n
+
+  - title: "Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach."
+    authors: "H. Fernando, H. Shen, M. Liu, S. Chaudhury, K. Murugesan, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Kigali, Rwanda, May 1-5, 2023. <b>(Oral presentation)</b>"
+    paper_pdf: "https://arxiv.org/pdf/2210.12624"
+    selected: n
+    recent: y  
+   
+  - title: "Alternating Implicit Projected SGD and Its Efficient Variants for Equality-Constrained Bilevel Optimization."
+    authors: "Q. Xiao, H. Shen, W. Yin, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Valencia, Spain, April 25-27, 2023."
+    paper_pdf: "https://arxiv.org/pdf/2211.07096"
+    selected: n
+
+  - title: "Distributed Offline Policy Optimization Over Batch Data."
+    authors: "H. Shen, S. Lu, X. Cui, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Valencia, Spain, April 25-27, 2023."
+    paper_pdf: "https://proceedings.mlr.press/v206/shen23b.html"
+    selected: n
+
+  - title: "Lazy Queries Can Reduce Variance in Zeroth-order Optimization."
+    authors: "Q. Xiao, Q. Ling, and <b>T. Chen</b>."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 71, December 2023."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Byzantine-Resilient Decentralized Stochastic Optimization With Robust Aggregation Rules."
+    authors: "Z. Wu, Q. Ling, and <b>T. Chen</b>."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 71, pp. 3179 - 3195, August 2023."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Towards Understanding Asynchronous Advantage Actor-Critic: Convergence and Linear Speedup."
+    authors: "H. Shen, K. Zhang, M. Hong, and <b>T. Chen</b>."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 71, pp. 2579 - 2594, May 2023."
+    paper_pdf: ""
+    selected: n
+
+  - title: "A Method for Bilevel Optimization with Convex Lower-Level Problems."
+    authors: "H. Shen, S. Paternain, and <b>T. Chen</b>."
+    venue: "Proc. of Asilomar Conf. on Signals, Systems, & Computers, Pacific Grove, October 29 - November 1, 2023."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "A Nested Ensemble Method to Bilevel Machine Learning."
+    authors: "L. Chen, M. Abbas, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Rhodes Island, Greece, June 4 - 10, 2023."
+    paper_pdf: ""
+    selected: n
+
+
+############    year = 2022  ###############
+
+  - title: "Understanding Benign Overfitting in Meta-Learning."
+    authors: "L. Chen, S. Lu, and <b>T. Chen</b>."
+    venue: "Proc. of Neural Information Processing Systems <b>(NeurIPS)</b>, New Orleans, LA, November 28 - December 9, 2022."
+    paper_pdf: "https://arxiv.org/pdf/2206.13482"
+    selected: n
+  
+  - title: "A Single-Timescale Analysis For Stochastic Approximation With Multiple Coupled Sequences."
+    authors: "H. Shen and <b>T. Chen</b>."
+    venue: "Proc. of Neural Information Processing Systems <b>(NeurIPS)</b>, New Orleans, LA, November 28 - December 9, 2022. <b>(Oral presentation, Top 1.5% of all submitted papers)</b>"
+    paper_pdf: "https://arxiv.org/pdf/2206.10414"
+    selected: n
+  
+  - title: "Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning."
+    authors: "M. Abbas, Q. Xiao, L. Chen, P.-Y. Chen, and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Machine Learning <b>(ICML)</b>, Baltimore, MD, July 17-23, 2022."
+    paper_pdf: "https://proceedings.mlr.press/v162/abbas22b.html"
+    selected: n
+  
+  - title: "Learning to Coordinate in Multi-Agent Systems: A Coordinated Actor-Critic Algorithm and Finite-Time Guarantees."
+    authors: "S. Zeng, <b>T. Chen</b>, A. Garcia, and M. Hong."
+    venue: "Proc. of Learning for Dynamics and Control Conference <b>(L4DC)</b>, Palo Alto, CA, June 2022."
+    paper_pdf: "https://proceedings.mlr.press/v168/zeng22a/zeng22a.pdf"
+    selected: n
+  
+  - title: "Is Bayesian Model-Agnostic Meta Learning Better than Model-Agnostic Meta Learning, Provably."
+    authors: "L. Chen and <b>T. Chen</b>."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Virtual, March 28-30, 2022."
+    paper_pdf: "https://proceedings.mlr.press/v151/chen22d/chen22d.pdf"
+    selected: n
+  
+  - title: "A Single-Timescale Stochastic Optimization Method for Stochastic Bilevel Problems."
+    authors: "<b>T. Chen</b>, Y. Sun, Q. Xiao, and W. Yin."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Virtual, March 28-30, 2022. <b>(Oral presentation, Top 2% of all submitted papers)</b>"
+    paper_pdf: "https://proceedings.mlr.press/v151/chen22e/chen22e.pdf"
+    selected: n
+
+  - title: "Understanding Benign Overfitting in Personalized Federated Learning."
+    authors: "L. Chen and <b>T. Chen</b>."
+    venue: "Proc. of European Signal Processing Conf. <b>(EUSIPCO)</b>, Belgrade, Serbia, August 29 - September 2, 2022."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Federated Multi-Armed Bandit Via Uncoordinated Exploration."
+    authors: "Z. Yan, Q. Xiao, <b>T. Chen</b>, and A. Tajer."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Singapore, May 23 - 27, 2022."
+    paper_pdf: ""
+    selected: n
+  
+  
+
+  ############  year=2021 ##################
+  
+  - title: "CADA: Communication-Adaptive Distributed Adam."
+    authors: "<b>T. Chen</b>, Z. Guo, Y. Sun, and W. Yin."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Virtual, April 16-18, 2021."
+    paper_pdf: "http://proceedings.mlr.press/v130/chen21a/chen21a.pdf"
+    selected: n
+  
+  - title: "Decentralized Policy Gradient Descent Ascent For Safe Multi-Agent Reinforcement Learning."
+    authors: "S. Lu, K. Zhang, <b>T. Chen</b>, T. Basar, and L. Horesh."
+    venue: "Proc. of AAAI Conf. on Artificial Intelligence <b>(AAAI)</b>, Virtual, February 2-9, 2021."
+    paper_pdf: "https://chentianyi1991.github.io/aaai.pdf"
+    selected: n
+
+  - title: "Solving Stochastic Compositional Optimization Is Nearly As Easy As Solving Stochastic Optimization."
+    authors: "<b>T. Chen</b>, Y. Sun, and W. Yin."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 69, pp. 4937 - 4948, June 2021."
+    paper_pdf: "https://arxiv.org/pdf/2008.10847"
+    selected: n
+  
+  - title: "Adaptive Temporal Difference Learning with Linear Function Approximation."
+    authors: "T. Sun, H. Shen, <b>T. Chen</b>, and D. Li."
+    venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence <b>(TPAMI)</b>, to appear, 2021."
+    paper_pdf: "https://arxiv.org/pdf/2002.08537"
+    selected: n
+  
+  - title: "Communication-Adaptive Stochastic Gradient Methods for Distributed Learning."
+    authors: "<b>T. Chen</b>, Y. Sun, and W. Yin."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 69, pp. 4637 - 4651, July 2021."
+    paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9497717"
+    selected: n
+  
+  - title: "Byzantine-Resilient Decentralized TD Learning with Linear Function Approximation."
+    authors: "Z. Wu, H. Shen, <b>T. Chen</b>, and Q. Ling."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 69, pp. 3839 - 3853, June 2021."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Multi-Agent Multi-Armed Bandit Learning for Online Management of Edge-Assisted Computing."
+    authors: "B. Wu, <b>T. Chen</b>, W. Ni, and X. Wang."
+    venue: "IEEE Transactions on Communications <b>(TCOM)</b>, to appear, 2021."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Communication-Efficient Policy Gradient Methods for Distributed Reinforcement Learning."
+    authors: "<b>T. Chen</b>, K. Zhang, G. Giannakis, and T. Basar."
+    venue: "IEEE Transactions on Control of Network Systems <b>(TCNS)</b>, 2021."
+    paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424975"
+    selected: n
+  
+  - title: "Lazily Quantized Gradient Innovation for Communication-Efficient Federated Learning."
+    authors: "J. Sun, <b>T. Chen</b>, G. Giannakis, and Z. Yang."
+    venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence </b>(TPAMI)</b>, to appear, 2021."
+    paper_pdf: "https://experts.umn.edu/en/publications/lazily-aggregated-quantized-gradient-innovation-for-communication"
+    selected: n
+
+  - title: "Federated Offline Policy Evaluation Over Distributed Batch Datasets."
+    authors: "H. Shen, X. Li, S. Lu, and <b>T. Chen</b>."
+    venue: "Proc. of Asilomar Conf. on Signals, Systems, & Computers, Virtual, October 31 - November 3, 2021."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "An Optimal Stochastic Compositional Optimization Method with Applications to Meta Learning."
+    authors: "Y. Sun, <b>T. Chen</b>, and W. Yin."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, June 6 - 11, 2021."
+    paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414369"
+    selected: n
+  
+  - title: "Byzantine-Resilient Decentralized TD Learning with Linear Function Approximation."
+    authors: "Z. Wu, H. Shen, <b>T. Chen</b>, and Q. Ling."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, June 6 - 11, 2021."
+    paper_pdf: ""
+    selected: n
+
+
+
+###################  year = 2020 ################
+  
+  - title: "Hybrid Federated Learning: Algorithms and Implementation."
+    authors: "X. Zhang, W. Yin, M. Hong, and <b>T. Chen</b>."
+    venue: "NeurIPS Workshop on Scalability, Privacy, and Security in Federated Learning, December 12, 2020."
+    paper_pdf: "https://arxiv.org/pdf/2012.12420"
+    selected: n
+  
+  - title: "VAFL: a Method of Vertical Asynchronous Federated Learning."
+    authors: "<b>T. Chen</b>, X. Jin, Y. Sun, and W. Yin."
+    venue: "Proc. of ICML Workshop on Federated Learning for User Privacy and Data Confidentiality, July 17-18, 2020."
+    paper_pdf: "https://arxiv.org/pdf/2007.06081"
+    selected: n
+
+  - title: "Federated Variance-Reduced Stochastic Gradient Descent with Robustness to Byzantine Attacks."
+    authors: "Z. Wu, Q. Ling, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "IEEE Transactions on Signal Processing </b>(TSP)</b>, vol. 68, pp. 4583 - 4596, July 2020."
+    paper_pdf: "https://arxiv.org/pdf/1912.12716"
+    selected: n
+
+  - title: "A Combinatorial Bandit Approach to UAV-Aided Edge Computing."
+    authors: "B. Wu, <b>T. Chen</b>, and X. Wang."
+    venue: "Proc. of Asilomar Conf. on Signals, Systems, & Computers, Pacific Grove, CA, November 1 - 5, 2020."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "An MAB Approach for MEC-Centric Task-Offloading Control in Multi-RAT HetNets."
+    authors: "B. Wu, <b>T. Chen</b>, and X. Wang."
+    venue: "Proc. of International Conference on Communications <b>(ICC)</b>, Virtual, June 7 - 11, 2020."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Resilient to Byzantine Attacks Finite-Sum Optimization over Networks."
+    authors: "Z. Wu, Q. Ling, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Acoustics, Speech, and Signal Processing <b>(ICASSP)</b>, Barcelona, Spain, May 4 - 9, 2020."
+    paper_pdf: ""
+    selected: n
+
+
+###################  year = 2019 ################
+
+  
+  - title: "Communication-Efficient Distributed Learning via Lazily Aggregated Quantized Gradients."
+    authors: "J. Sun*, <b>T. Chen*</b>, G. Giannakis, and Z. Yang. (*equal contribution)"
+    venue: "Proc. of Neural Information Processing Systems <b>(NeurIPS)</b>, Vancouver, Canada, December 8-14, 2019."
+    paper_pdf: "https://arxiv.org/pdf/1909.07588"
+    selected: n
+  
+  - title: "Bandit Online Learning with Unknown Delays."
+    authors: "B. Li, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Naha, Japan, April 16-18, 2019."
+    paper_pdf: "http://proceedings.mlr.press/v89/li19d/li19d.pdf"
+    selected: n
+  
+  - title: "RSA: Byzantine-Robust Stochastic Aggregation Methods for Distributed Learning from Heterogeneous Datasets."
+    authors: "L. Li, W. Xu, <b>T. Chen</b>, G. B. Giannakis, and Q. Ling."
+    venue: "Proc. of AAAI Conf. on Artificial Intelligence <b>(AAAI)</b>, Honolulu, USA, January 27 - February 1, 2019."
+    paper_pdf: "https://arxiv.org/pdf/1811.03761"
+    selected: n
+
+  - title: "Secure Mobile Edge Computing in IoT via Collaborative Online Learning."
+    authors: "B. Li, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 67, no. 23, pp. 5922 - 5935, December 2019."
+    paper_pdf: "https://experts.umn.edu/en/publications/secure-mobile-edge-computing-in-iot-via-collaborative-online-lear"
+    selected: n
+  
+  - title: "Learning and Management for Internet-of-Things: Accounting for Adaptivity and Scalability."
+    authors: "<b>T. Chen</b>, S. Barbarossa, X. Wang, G. B. Giannakis, and Z.-L. Zhang."
+    venue: "Proceedings of the IEEE <b>(PIEEE)</b>, vol. 107, no. 4, pp. 778 - 796, April 2019."
+    paper_pdf: "https://ieeexplore.ieee.org/ielaam/5/8674730/8648462-aam.pdf"
+    selected: n
+  
+  - title: "Random Feature-based Online Multi-Kernel Learning in Environments with Unknown Dynamics."
+    authors: "Y. Shen, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "Journal of Machine Learning Research <b>(JMLR)</b>, vol. 20, no. 22, pp. 1 - 36, February 2019."
+    paper_pdf: "https://www.jmlr.org/papers/volume20/18-030/18-030.pdf"
+    selected: n
+  
+  - title: "Real-Time Optimal Energy Management with Reduced Battery Capacity Requirements."
+    authors: "B. Li, <b>T. Chen</b>, X. Wang, and G. B. Giannakis."
+    venue: "IEEE Transactions on Smart Grid <b>(TSG)</b>, vol. 10, no. 2, pp. 1928 - 1938, February 2019."
+    paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8214260"
+    selected: n
+  
+  - title: "Bandit Convex Optimization for Scalable and Dynamic IoT Management."
+    authors: "<b>T. Chen</b> and G. B. Giannakis."
+    venue: "IEEE Internet of Things J. <b>(JIOT)</b>, vol. 6, no. 1, pp. 1276 - 1286, February 2019."
+    paper_pdf: "https://ieeexplore.ieee.org/ielaam/6488907/8651406/8362620-aam.pdf"
+    selected: n
+
+
+###################  year = 2018 ################
+
+
+  - title: "Online Ensemble Multi-kernel Learning Adaptive to Non-stationary and Adversarial Environments."
+    authors: "Y. Shen, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Artificial Intelligence and Statistics <b>(AISTATS)</b>, Lanzarote, Canary Islands, April 9 - 11, 2018."
+    paper_pdf: "http://proceedings.mlr.press/v84/shen18a/shen18a.pdf"
+    selected: n
+  
+  - title: "Learn-and-Adapt Stochastic Dual Gradients for Network Resource Allocation."
+    authors: "<b>T. Chen</b>, Q. Ling, and G. B. Giannakis."
+    venue: "IEEE Transactions on Control of Network Systems <b>(TCNS)</b>, vol. 5, no. 4, pp. 1941 - 1951, December 2018."
+    paper_pdf: "https://arxiv.org/pdf/1703.01673"
+    selected: n
+  
+  - title: "Heterogeneous Online Learning for 'Thing-Adaptive' Fog Computing in IoT."
+    authors: "<b>T. Chen</b>, Q. Ling, Y. Shen, and G. B. Giannakis."
+    venue: "IEEE Internet of Things J. <b>(JIOT)</b>, vol. 5, no. 6, pp. 4328 - 4341, December 2018."
+    paper_pdf: ""
+    selected: n
+
+  - title: "Secure Edge Computing in IoT via Online Learning."
+    authors: "B. Li, <b>T. Chen</b>, X. Wang, and G. B. Giannakis."
+    venue: "Proc. of Asilomar Conf. on Signals, Systems, & Computers, Pacific Grove, CA, October 28 - 31, 2018."
+    paper_pdf: ""
+    selected: n
+
+  - title: "Aggregating Flexibility of Heterogeneous Energy Resources in Distribution Networks."
+    authors: "<b>T. Chen</b>, N. Li, and G. B. Giannakis."
+    venue: "Proc. of American Control Conference <b>(ACC)</b>, Milwaukee, WI, June 27 - 29, 2018."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Harnessing Bandit Online Learning for Low-Latency Fog Computing."
+    authors: "<b>T. Chen</b> and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Acoust., Speech, and Signal Processing <b>(ICASSP)</b>, Calgary, Canada, April 15 - 20, 2018."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Online Multi-Kernel Learning with Orthogonal Random Features."
+    authors: "Y. Shen, <b>T. Chen</b>, and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Acoust., Speech, and Signal Processing <b>(ICASSP)</b>, Calgary, Canada, April 15 - 20, 2018."
+    paper_pdf: ""
+    selected: n
+  
+  
+###################  year = 2017 ################
+  
+  - title: "An Online Convex Optimization Approach to Proactive Network Resource Allocation."
+    authors: "<b>T. Chen</b>, Q. Ling, and G. B. Giannakis."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 65, no. 24, pp. 6350 - 6364, December 2017."
+    paper_pdf: "https://experts.umn.edu/en/publications/an-online-convex-optimization-approach-to-proactive-network-resou"
+    selected: n
+  
+  - title: "Stochastic Averaging for Constrained Optimization with Application to Online Resource Allocation."
+    authors: "<b>T. Chen</b>, A. Mokhtari, X. Wang, A. Ribeiro, and G. B. Giannakis."
+    venue: "IEEE Transactions on Signal Processing <b>(TSP)</b>, vol. 65, no. 12, pp. 3078 - 3093, June 2017."
+    paper_pdf: "https://experts.umn.edu/en/publications/stochastic-averaging-for-constrained-optimization-with-applicatio"
+    selected: n
+
+  - title: "Real-Time Energy Management with Improved Cost-Capacity Tradeoff."
+    authors: "B. Li, <b>T. Chen</b>, X. Wang, and G. B. Giannakis."
+    venue: "Proc. of IEEE Global Conf. on Signal and Info. Processing <b>(GlobalSIP)</b>, Montreal, Canada, November 14 - 16, 2017."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Online Learning for 'Thing-Adaptive' Fog Computing in IoT."
+    authors: "<b>T. Chen</b>, Y. Shen, Q. Ling, and G. B. Giannakis."
+    venue: "Proc. of Asilomar Conf. on Signals, Systems, & Computers <b>(Asilomar)</b>, Pacific Grove, CA, October 29 - November 1, 2017."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Online Convex Optimization for Dynamic Network Resource Allocation."
+    authors: "<b>T. Chen</b>, Q. Ling, and G. B. Giannakis."
+    venue: "Proc. of European Signal Processing Conf. <b>(EUSIPCO)</b>, Kos Island, Greece, August 28 - September 3, 2017."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Learn-and-Adapt Network Resource Allocation."
+    authors: "<b>T. Chen</b>, Q. Ling, and G. B. Giannakis."
+    venue: "Proc. of IEEE Signal Processing Advances in Wireless Communications <b>(SPAWC)</b>, Hokkaido, Japan, July 3 - 6, 2017."
+    paper_pdf: ""
+    selected: n
+
+
+###################  year = 2016 ################
+  
+  - title: "Dynamic Resource Allocation for Smart-Grid Powered MIMO Downlink Transmissions."
+    authors: "X. Wang, <b>T. Chen</b>, X. Chen, X. Zhou, and G. B. Giannakis."
+    venue: "IEEE J. on Selected Areas in Communications <b>(JSAC)</b>, vol. 34, no. 12, pp. 3354 - 3365, December 2016."
+    paper_pdf: ""
+    selected: n
+
+  - title: "Robust Workload and Energy Management for Sustainable Data Centers."
+    authors: "<b>T. Chen</b>, Y. Zhang, X. Wang, and G. B. Giannakis."
+    venue: "IEEE J. on Selected Areas in Communications <b>(JSAC)</b>, vol. 34, no. 3, pp. 651-654, March 2016."
+    paper_pdf: "https://dl.acm.org/doi/abs/10.1109/JSAC.2016.2525618"
+    selected: n
+  
+  - title: "Cooling-Aware Energy and Workload Management in Data Centers via Stochastic Optimization."
+    authors: "<b>T. Chen</b>, X. Wang, and G. B. Giannakis."
+    venue: "IEEE J. on Special Topics in Signal Processing <b>(JSTSP)</b>, vol. 10, no. 2, pp. 402-405, March 2016."
+    paper_pdf: "https://ieeexplore.ieee.org/ielaam/4200690/7406776/7328245-aam.pdf"
+    selected: n
+
+  - title: "A Data-Driven Approach to Stochastic Network Optimization."
+    authors: "<b>T. Chen</b>, A. Mokhtari, X. Wang, A. Ribeiro, and G. B. Giannakis."
+    venue: "Proc. of IEEE Global Conf. on Signal and Info. Processing <b>(GlobalSIP)</b>, Washington, DC, December 7 - 9, 2016."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Two-Scale Stochastic Control for Smart-Grid Powered Coordinated Multi-Point Systems."
+    authors: "X. Chen, <b>T. Chen</b>, X. Wang, L. Huang, and G. B. Giannakis."
+    venue: "Proc. of IEEE Global Comm. Conf. <b>(Globecom)</b>, Washington, DC, December 4 - 8, 2016."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Robust Geographical Load Balancing for Sustainable Data Centers."
+    authors: "<b>T. Chen</b>, Y. Zhang, X. Wang, and G. B. Giannakis."
+    venue: "Proc. of Intl. Conf. on Acoust., Speech, and Signal Processing <b>(ICASSP)</b>, Shanghai, China, March 20 - 25, 2016."
+    paper_pdf: ""
+    selected: n
+
+
+  ###################  year = 2015 ################
+  
+  
+  - title: "Optimal Scheduling for Wireless On-Demand Data Packet Delivery to High-Speed Trains."
+    authors: "<b>T. Chen</b>, H. Shan, and X. Wang."
+    venue: "IEEE Transactions on Vehicular Technology <b>(TVT)</b>, vol. 64, no. 9, pp. 4101-4112, September 2015."
+    paper_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6922592"
+    selected: n
+  
+  - title: "Energy and Workload Management for Data Centers in Renewable-Integrated Power Grid."
+    authors: "<b>T. Chen</b>, X. Wang, and G. B. Giannakis."
+    venue: "Proc. of IEEE Global Conf. on Signal and Info. Processing <b>(GlobalSIP)</b>, Orlando, FL, December 14 - 16, 2015."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Dynamic Power Management for Green Coordinated Multipoint Systems."
+    authors: "X. Wang, <b>T. Chen</b>, Y. Zhang, and G. B. Giannakis."
+    venue: "Proc. of IEEE Global Comm. Conf. <b>(Globecom)</b>, San Diego, CA, December 6 - 10, 2015."
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Packet Scheduling for On-Demand Data Services to High-Speed Trains over Wireless Links."
+    authors: "<b>T. Chen</b>, H. Shan, and X. Wang."
+    venue: "Proc. of IEEE Global Comm. Conf. <b>(Globecom)</b>, Atlanta, GA, December 9 - 13, 2013."
+    paper_pdf: ""
+    selected: n
+
+
+
+
+
+  # - title: "Human Atlas: A Tool for Mapping Social Networks"
+  #   authors: "<b>Martin Saveski</b>, Eric Chu, Soroush Vosoughi, Deb Roy"
+  #   venue: "WWW'16: International Conference on the World Wide Web. 2016. (Demo)"
+  #   paper_pdf: "/assets/publications/2016_human_atlas/paper.pdf"
+  #   video: "https://www.youtube.com/watch?v=OQOUHkJdA-U"
+  #   selected: n
+
+  # - title: "Topic Modeling in Twitter: Aggregating Tweets by Conversations"
+  #   authors: "David Alvarez-Melis<sup>‡</sup>, <b>Martin Saveski<sup>‡</sup></b>"
+  #   venue: "ICWSM'16: International AAAI Conference on Web and Social Media. 2016. (Short Paper)"
+  #   paper_pdf: "/assets/publications/2016_twitter_topic_modeling/paper.pdf"
+  #   poster: "/assets/publications/2016_twitter_topic_modeling/poster.pdf"
+  #   selected: n
+
+  # - title: "Tracking the Yak: An Empirical Study of Yik Yak"
+  #   authors: "<b>Martin Saveski</b>, Sophie Chou, Deb Roy."
+  #   venue: "ICWSM'16: International AAAI Conference on Web and Social Media. 2016. (Short Paper)"
+  #   paper_pdf: "/assets/publications/2016_yikyak/paper.pdf"
+  #   poster: "/assets/publications/2016_yikyak/poster.pdf"
+  #   selected: n
+
+  # - title: "One-Pass Ranking Models for Low-Latency Product Recommendations"
+  #   authors: "Antonino Freno, <b>Martin Saveski</b>, Rodolphe Jenatton, Cédric Archambeau"
+  #   venue: "KDD'15: International Conference on Knowledge Discovery and Data Mining. 2015. (Industry Track)"
+  #   paper_pdf: "/assets/publications/2015_one_pass_ranking_models/paper.pdf"
+  #   poster: "/assets/publications/2015_one_pass_ranking_models/poster.pdf"
+  #   slides: "/assets/publications/2015_one_pass_ranking_models/slides.pdf"
+  #   selected: y
+
+  # - title: "Item Cold-Start Recommendations: Learning Local Collective Embeddings"
+  #   authors: "<b>Martin Saveski</b>, Amin Mantrach."
+  #   venue: "RecSys'14, ACM Conference Series on Recommender Systems. 2014."
+  #   paper_pdf: "/assets/publications/2014_item_cold_start/paper.pdf"
+  #   slides: "/assets/publications/2014_item_cold_start/slides.pdf"
+  #   code: "https://github.com/msaveski/LCE"
+  #   selected: y
+
+  # - title: "The Geography of Online News Engagement"
+  #   authors: "<b>Martin Saveski</b>, Daniele Quercia, Amin Mantrach"
+  #   venue: "Socinfo'14: International Conference on Social Informatics. 2014."
+  #   paper_pdf: "/assets/publications/2014_geography_of_news/paper.pdf"
+  #   selected: n
+
+  # - title: "Joint semi-supervised Learning of Hidden Conditional Random Fields and Hidden Markov Models"
+  #   authors: "Yann Soullard, <b>Martin Saveski</b>, Thierry Artières"
+  #   venue: "Pattern Recognition Letters. 2013."
+  #   paper_pdf: "/assets/publications/2014_joint_semi_supervised_learning/paper.pdf"
+  #   selected: n
+
+  # - title: "Web Services for Stream Mining: A Stream-Based Active Learning Use Case"
+  #   authors: "<b>Martin Saveski</b>, Miha Grčar"
+  #   venue: "ECML'11, Workshop on Planning to Learn and Service-Oriented Knowledge Discovery. 2011."
+  #   paper_pdf: "/assets/publications/2011_active_learning/paper.pdf"
+  #   selected: n
+
+  # - title: "Automatic Construction of Wordnets by Using Machine Translation and Language Modeling"
+  #   authors: "<b>Martin Saveski</b>, Igor Trajkovski"
+  #   venue: "In Proceedings of Seventh Language Technologies Conference. 2010."
+  #   paper_pdf: "/assets/publications/2010_wordnet_construction/paper.pdf"
+  #   slides: "/assets/publications/2010_wordnet_construction/slides.pdf"
+  #   selected: n
+
+  # - title: "Development of an English-Macedonian Machine Readable Dictionary by Using Parallel Corpora"
+  #   authors: "<b>Martin Saveski</b>, Igor Trajkovski"
+  #   venue: "Proceedings of ICT Innovations Conference. 2010."
+  #   paper_pdf: "/assets/publications/2010_machine_readable_dictionaries/paper.pdf"
+  #   selected: n

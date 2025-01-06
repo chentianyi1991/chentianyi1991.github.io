@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
+  <meta name="description" content="Tianyi Chen">
+  <meta name="author" content="Tianyi Chen">
+  <meta property="og:title" content="Tianyi Chen" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chentianyi19.github.io" />
+  <meta property="og:site_name" content="Tianyi Chen" />
+  <link rel="canonical" href="https://chentianyi19.github.io" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}> -->
+  <link rel="stylesheet" href={{ "/libs/external/fontawesome-free-6.6.0-web/css/all.min.css" | prepend: site.baseurl }}>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
+  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
+  <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
+  <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>{{ site.data.main_info.name }}</h1>
+            <p>{{ site.data.main_info.title }}</p>
+            <p>{{ site.data.main_info.email }};&nbsp; 
+            {{ site.data.main_info.email2 }}</p>
+            <p>{{ site.data.main_info.location }}</p>
+            <p>
+              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+                <i class="fa-brands fa-twitter fa-lg" style="font-size: 25px; padding-top: 10px"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+                <i class="fa-brands fa-linkedin fa-lg" style="font-size: 25px; padding-top: 10px"></i>
+              </span>
+
+<!--               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+                <i class="fa-brands fa-github fa-lg" style="font-size: 25px; padding-top: 10px"></i>
+              </span> -->
+
+              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+                <i class="ai ai-google-scholar ai-lg" style="font-size: 25px; padding-top: 10px" aria-hidden="true"></i>
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
+<!--           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li> -->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#people" | prepend: site.baseurl }}>People</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#awards" | prepend: site.baseurl }}>Awards</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Experience</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    {{ content}}
+
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          {{ site.data.main_info.name }}
+        </div>
+        <div class="four columns">
+          {{ site.data.main_info.email }}
+        </div>
+        <div class="four columns">
+
+          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+            <i class="fa-brands fa-twitter"></i>
+          </span>
+
+          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+            <i class="fa-brands fa-linkedin"></i>
+          </span>
+
+<!--           <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+            <i class="fa-brands fa-github"></i>
+          </span> -->
+
+          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+      This website is based on a template by <a href="https://faculty.washington.edu/msaveski/">Martin Saveski</a> and <a href="https://mmoorr.github.io/www_personal/">Mor Naaman</a>.
+      </div>
+    </div>
+
+  </div>
+
+<!-- Default Statcounter code -->
+<script type="text/javascript">
+var sc_project=10867279; 
+var sc_invisible=1; 
+var sc_security="cab9fef6"; 
+var sc_remove_link=1; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="https://c.statcounter.com/10867279/0/cab9fef6/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></div></noscript>
+<!-- End of Statcounter Code -->
+  
+</body>
+</html>

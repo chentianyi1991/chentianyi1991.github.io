@@ -1,0 +1,318 @@
+news_items:
+
+  - item: "Our early work back to 2020 on Byzantine-resilient federated learning has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
+    date: "Dec 2024"
+    link: "https://signalprocessingsociety.org/community-involvement/awards-submit-award-nomination#youngauthor"
+    selected: y
+
+  - item: "Our extended study of the ICML 2023 paper on the penalty-based bilevel optimization methods has been accepted to <b>Mathematical Programming (Series A)</b>: On Penalty-based Bilevel Gradient Descent Method"
+    date: "Dec 2024"
+    link: "https://arxiv.org/pdf/2302.05185"
+    selected: y
+
+  - item: "I am honored to be invited to <b>Portuguese American Optimization Workshop</b> (PAOW), colocated with MOPTA 2025"
+    link: "https://coral.ise.lehigh.edu/paow/"
+    date: "Nov 2024"
+    selected: y
+
+  - item: "I serve as an Area Chair for AISTATS 2025, ICLR 2025, ICML 2025, and the newly founded <b>CPAL 2025</b>"
+    date: "Oct 2024"
+    link: "https://cpal.cc/area_chairs/"
+    selected: y
+
+  - item: "Three papers from our group have been accepted to the main conference of <b>NeurIPS 2024</b>"
+    link: "/index.html#publications"
+    date: "Oct 2024"
+    selected: y
+    
+  - item: "I am invited to present our work at The Foundations of Information, Networks, and Decision Systems <b>(FIND) Seminar, Cornell University</b>"
+    link: "https://find.engineering.cornell.edu/seminar/"
+    date: "Sep 2024"
+    selected: y
+
+  - item: "I am invited to serve as an Associate Editor for IEEE Transactions on Signal Processing."
+    link: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing/editorial-board"
+    date: "Sep 2024"
+    selected: y
+
+  - item: "I am invited to present our work on the theory of analog in-memory training at The CPCC Seminar, at <b>University of California, Irvine</b>, and The Engineering Seminar, at <b>King's College London</b>"
+    link: "https://cpcc.uci.edu/events.php#CPCCSeminarChen"
+    date: "Sep 2024"
+    selected: y
+
+  - item: "I presented a tutorial on the foundation of bilevel learning and its application to LLMs at <b>MLSP 2024</b>, London, UK"
+    link: "https://2024.ieeemlsp.org/toturials/"
+    date: "Sep 2024"
+    selected: n
+
+  - item: "We are excited to receive <b>a new collaborative NSF project</b> with UCI on bilevel optimization for graph representation learning"
+    link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412486&HistoricalAwards=false"
+    date: "Aug 2024"
+    selected: y
+
+  - item: "Our paper on using the In-Context Learning ability of LLM for wireless symbol detection problems has been accepted to <b>GLOBECOM 2024</b>"
+    link: "https://arxiv.org/pdf/2409.00124"
+    date: "Jul 2024"
+    selected: y 
+  
+  - item: "My Ph.D. student Lisha Chen will join the <b>Department of Electrical and Computer Engineering, University of Rochester</b> in 2025 as a <b>tenure-track Assistant Professor!</b>"
+    link: "https://lisha-chen.github.io/"
+    date: "Jun 2024"
+    selected: y 
+    
+  - item: "Two papers have been accepted to <b>ICML 2024</b> and one paper has been accepted to <b>JMLR</b>; see recent papers"
+    link: "/index.html#publications"
+    date: "May 2024"
+    selected: n 
+
+  - item: "We presented a tutorial at <b>ICASSP 2024</b> on Learning with Multiple Objectives and Applications to Speech Processing"
+    link: "https://lisha-chen.github.io/www/files/tutorial/aaai2024_tut.pdf"
+    date: "Apr 2024"
+    selected: n 
+
+  - item: "I am invited to present our work at the Department of Electrical and Computer Engineering, Rutgers University."
+    link: "https://www.ece.rutgers.edu/"
+    date: "Mar 2024"
+    selected: n 
+
+  - item: "We presented a tutorial at <b>AAAI 2024</b> on Learning with Multiple Objectives and Applications to Reinforcement Learning"
+    link: "https://aaai.org/aaai-conference/aaai-24-tutorial-and-lab-list/#th08"
+    date: "Feb 2024"
+    selected: n 
+
+  - item: "One paper has been accepted to <b>AISTATS 2024</b>; see recent papers"
+    link: "/index.html#publications"
+    date: "Jan 2024"
+    selected: n 
+
+  - item: "I am invited to present our work at the Department of Electrical and Computer Engineering, Northeastern University."
+    link: "https://ece.northeastern.edu/"
+    date: "Oct 2023"
+    selected: n 
+
+  - item: "I am invited to serve as an Area Chair for <b>AISTATS 2024</b> and <b>CPAL 2024</b>."
+    link: "http://aistats.org/aistats2024/"
+    link: " https://cpal.cc/"
+    date: "Oct 2023"
+    selected: n 
+
+  - item: "Two papers have been accepted to <b>NeurIPS 2023</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Sep 2023"
+    selected: n 
+
+  - item: "I am invited to present our work on multi-objective learning at a departmental seminar from Department of Industrial and Systems Engineering, Lehigh University."
+    link: "https://engineering.lehigh.edu/ise"
+    date: "Sep 2023"
+    selected: n 
+
+  - item: "Our paper on lazy query for zeroth-order optimization has been accepted in <b>TSP</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Aug 2023"
+    selected: n 
+
+  - item: "I am invited to present our work on bilevel optimization at <b>SIAM Conference on Optimization</b> and <b>MOPTA</b>."
+    link: "https://www.siam.org/conferences/cm/conference/op23"
+    link: "https://coral.ise.lehigh.edu/~mopta/"
+    date: "Jun 2023"
+    selected: n 
+
+  - item: "One paper on the inexact penalization method for bilevel optimization has been accepted in <b>ICML 2023</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Apr 2023"
+    selected: n 
+
+  - item: "Our paper on linear speedup analysis of the popular <b>A3C</b> algorithm in RL has been accepted in <b>TSP</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Apr 2023"
+    selected: n 
+
+  - item: "Our paper on ensemble methods for bilevel learning was accepted in <b>ICASSP 2023</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Feb 2023"
+    selected: n 
+
+  - item: "I am invited to present our work on bilevel optimization for distributed learning at <b>EnCORE workshop</b> at <b>ITA 2023</b>."
+    link: "https://encore.ucsd.edu/encore-ita-2023/"
+    date: "Feb 2023"
+    selected: n 
+
+  - item: "One paper has been selected as an <b>oral</b> paper (notable-top-5%) in <b>ICLR 2023</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Jan 2023"
+    selected: n 
+
+  - item: "Two papers have been accepted to <b>AISTATS 2023</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Jan 2023"
+    selected: n 
+
+  - item: "With Atlas Wang, we will present a tutorial at <b>ICASSP 2023</b> on Bilevel Optimization and Its Applications to Machine Learning."
+    link: ""
+    date: "Dec 2022"
+    selected: n 
+
+  - item: "We are honored to receive the Faculty Research Gifts from <b>Cisco Research</b>."
+    link: "https://research.cisco.com/"
+    date: "Nov 2022"
+    selected: n 
+
+  - item: "We are happy to receive several IBM-RPI AI research projects, part of the <b>IBM AI Horizons Network</b>."
+    link: "http://ibm.biz/AIHorizons"
+    date: "Nov 2022"
+    selected: n 
+
+  - item: "Our monograph with Osvaldo's group on <b>Meta Learning and Applications to Communications</b> is published in <b>Foundations and Trends in Signal Processing</b>."
+    link: "https://arxiv.org/pdf/2210.02515.pdf"
+    date: "Oct 2022"
+    selected: n 
+
+  - item: "We are honored to receive the <b>Amazon Research Award - AWS AI</b>."
+    link: "https://www.amazon.science/research-awards/program-updates/fall-2021-and-winter-2022-amazon-research-awards-recipients-announced"
+    date: "Oct 2022"
+    selected: n 
+
+  - item: "Two papers have been accepted to <b>NeurIPS 2022</b> with one being selected as an <b>oral</b> presentation; see recent papers."
+    link: "/index.html#publications"
+    date: "Sep 2022"
+    selected: n 
+
+  - item: "I am invited to serve as an Area Chair for <b>AISTATS 2023</b>."
+    link: "https://aistats.org/aistats2023/index.html"
+    date: "Sep 2022"
+    selected: n 
+
+  - item: "We have organized a Cross-Community Federated Learning (CrossFL) workshop at <b>MLSys 2022</b>."
+    link: "https://www.youtube.com/watch?v=0mV85uGMpXA"
+    date: "Aug 2022"
+    selected: n
+
+  - item: "Our paper has been accepted to <b>ICML 2022</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "May 2022"
+    selected: n
+
+  - item: "Two papers have been accepted to <b>AISTATS 2022</b> with one being selected as an <b>oral</b> presentation; see recent papers."
+    link: "/index.html#publications"
+    date: "Jan 2022"
+    selected: n
+
+  - item: "I will co-organize a workshop at <b>MLSys 2022</b> with <b>Pin-Yu Chen</b>, <b>Carlee Joe-Wong</b>, and <b>Nathalie Baracaldo</b> on Cross-Community Federated Learning: Algorithms, Systems and Co-designs."
+    link: "https://crossfl2022.github.io/"
+    date: "Dec 2021"
+    selected: n
+
+  - item: "I will co-present a tutorial at <b>ICASSP 2022</b> with <b>Prof. Osvaldo Simeone</b> on <b>Meta Learning and Applications to Communications</b>."
+    link: "https://2022.ieeeicassp.org/tutorials.php#tut14"
+    date: "Nov 2021"
+    selected: n
+
+  - item: "Two papers have been accepted to <b>NeurIPS 2021</b> with one being selected as a <b>spotlight</b> presentation; see recent papers."
+    link: "/index.html#publications"
+    date: "Sep 2021"
+    selected: n
+
+  - item: "Our paper was accepted in <b>IEEE Trans on Pattern Analysis and Machine Intelligence</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Sep 2021"
+    selected: n
+
+  - item: "I am invited to the Panel Session of the <b>Distributed ML workshop</b> co-located with ACM CoNEXT 2021."
+    link: "https://distributedml.org/program/"
+    date: "Sep 2021"
+    selected: n
+
+  - item: "With <b>Derya Malak</b>, we are organizing a workshop on <b>Wireless Distributed Computing and Learning</b> at WiOPT 2021."
+    link: "https://wiopt.online/workshops/track/CCDWN"
+    date: "Sep 2021"
+    selected: n
+
+  - item: "I am excited to collaborate with <b>Rongjie Lai</b> (RPI) and <b>Jie Chen</b> (MIT-IBM AI Lab) for the <b>NSF SCALE MoDL</b> Program on: <b>Representation Learning via Variational Mean Field Theory</b>."
+    link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134168&HistoricalAwards=false"
+    date: "Aug 2021"
+    selected: n
+
+  - item: "Our paper was accepted in <b>IEEE Transactions on Signal Processing</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Jul 2021"
+    selected: n
+
+  - item: "Our paper was recognized as the <b>Outstanding Student Paper Award</b> for <b>ICASSP 2021</b>."
+    link: "https://ww3.math.ucla.edu/dr-yuejiao-sun-receives-outstanding-student-paper-award-from-icassp2021/"
+    date: "Jun 2021"
+    selected: n
+
+  - item: "Two papers were accepted in <b>IEEE Transactions on Signal Processing</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Jun 2021"
+    selected: n
+
+  - item: "I am honored to receive the <b>NSF CAREER Award</b> on: The Co-design of Distributed Machine Learning Algorithms and Wireless Systems."
+    link: "https://news.rpi.edu/content/2021/06/22/intelligence-sharing-tools-will-enable-smarter-devices"
+    date: "May 2021"
+    selected: n
+
+  - item: "Our paper was accepted in <b>IEEE Transactions on Control of Network systems</b>; see recent paper."
+    link: "/index.html#publications"
+    date: "Apr 2021"
+    selected: n
+
+  - item: "Our papers were accepted in <b>ICASSP 2021</b> on meta learning and reinforcement learning; see recent papers."
+    link: "/index.html#publications"
+    date: "Jan 2021"
+    selected: n
+
+  - item: "Our paper was accepted in <b>AISTATS 2021</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Jan 2021"
+    selected: n
+
+  - item: "My Ph.D dissertation was recognized as the inaugural <b>IEEE SPS Best PhD Dissertation Award</b>: Efficient Methods for Distributed Machine Learning and Resource Management in IoT. "
+    link: "https://ece.umn.edu/alumnus-tianyi-chen-receives-ieee-sps-best-dissertation-award/"
+    date: "Jan 2021"
+    selected: n
+
+  - item: "Our paper was accepted in <b>AAAI 2021</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Dec 2020"
+    selected: n
+
+  - item: "Our paper was recognized as the <b>Best Student Paper Award</b> at <b>NeurIPS 2020 workshop</b> on Federated Learning: <b>Hybrid Federated Learning: Algorithms and Implementation</b>."
+    link: "https://ww3.math.ucla.edu/professor-yin-and-team-wins-best-student-paper-award-on-scalability-privacy-and-security-in-federated-learning/"
+    date: "Dec 2020"
+    selected: n
+
+  - item: "Our paper was accepted in <b>IEEE Trans on Pattern Analysis and Machine Intelligence</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Dec 2020"
+    selected: n
+
+  - item: "New paper on Byzantine-robust federated learning has been accepted in <b>IEEE Transactions on Signal Processing</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "May 2020"
+    selected: n
+
+  - item: "I am organizing the special session <b>Reinforcement learning for communication systems</b> at <b>Asilomar 2020</b>."
+    link: "https://www2.securecms.com/Asilomar2020/Papers/PublicSessionIndex3.asp?Sessionid=1005"
+    date: "Mar 2020"
+    selected: n
+
+  - item: "Presented our work on Lazily Aggregated Quantized Gradients at <b>NeurIPS 2019</b>."
+    link: "https://www.dropbox.com/s/hliklys5xjyzspi/NeurIPS_Sunposter.pdf?dl=0"
+    date: "Dec 2019"
+    selected: n
+
+  - item: "Our paper has been accepted in <b>IEEE Transactions on Signal Processing</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Oct 2019"
+    selected: n
+
+  - item: "Our paper was accepted at <b>NeurIPS 2019</b>; see recent papers."
+    link: "/index.html#publications"
+    date: "Sept 2019"
+    selected: n
+
+  - item: "I am excited to join Department of Electrical, Computer, and Systems Engineering at <b>Rensselaer Polytechnic Institute</b>."
+    link: "http://www.rpi.edu/"
+    date: "Aug 2019"
+    selected: n
