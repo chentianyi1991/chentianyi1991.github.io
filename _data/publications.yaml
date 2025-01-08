@@ -162,7 +162,7 @@ papers:
     note: "<i>Shorter version in Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
     code: "https://github.com/heshandevaka/Trade-Off-MOL"
     poster: "https://www.dropbox.com/scl/fi/gucjt422nwxfluejd5q23/poster_MOL_tradeoff-A1.pdf?rlkey=jxkrco28ronb74i1q4qcunrx1&dl=0"
-    selected: y
+    selected: N
     recent: y
 
   - title: "An alternating optimization method for bilevel problems under the Polyak-Łojasiewicz condition."
@@ -179,7 +179,7 @@ papers:
     # video: "https://drive.google.com/file/d/0B9-P1m1JkZA7UTRuMUFWcTNueXM/view"
     note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
     code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
-    selected: y
+    selected: N
     recent: y
     
   - title: "Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach."
