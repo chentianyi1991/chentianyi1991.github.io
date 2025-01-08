@@ -21,7 +21,7 @@ news_items:
     selected: y
 
   - item: "Three papers from our group have been accepted to the main conference of <b>NeurIPS 2024</b>"
-    link: "/index.htmlpapers-recent"
+    link: "/index.html#papers-recent"
     date: "Oct 2024"
     selected: y
     
