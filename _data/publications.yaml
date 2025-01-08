@@ -3,7 +3,7 @@ papers:
 ############# Selected Papers ##############
   - title: "On Penalty-based Bilevel Gradient Descent Method."
     authors: "Han Shen, Quan Xiao and <b>Tianyi Chen</b>."
-    venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2024."
+    venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
     paper_pdf: "https://arxiv.org/pdf/2302.05185.pdf"
     note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
     code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
@@ -157,7 +157,7 @@ papers:
 
   - title: "Three-way trade-off in multi-objective learning: Optimization, generalization and conflict-avoidance."
     authors: "Lisha Chen, Heshan Fernando, Yiming Ying, <b>Tianyi Chen</b>."
-    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
+    venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, vol 25, pp. 1-53, 2024."
     paper_pdf: "https://arxiv.org/pdf/2305.20057"
     note: "<i>Shorter version in Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
     code: "https://github.com/heshandevaka/Trade-Off-MOL"
@@ -174,7 +174,7 @@ papers:
      
   - title: "On Penalty-based Bilevel Gradient Descent Method."
     authors: "Han Shen, Q. Xiao, and <b>T. Chen</b>."
-    venue: "Proc. of Intl. Conf. on Machine Learning <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
+    venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
     paper_pdf: "https://arxiv.org/pdf/2302.05185"
     # video: "https://drive.google.com/file/d/0B9-P1m1JkZA7UTRuMUFWcTNueXM/view"
     note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
