@@ -8,7 +8,7 @@ papers:
     note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
     code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
     selected: y
-    recent: y
+ 
     
   - title: "Three-Way Trade-Off in Multi-Objective Learning: Optimization, Generalization and Conflict-Avoidance."
     authors: "Lisha Chen, Heshan Fernando, Yiming Ying, and <b>Tianyi Chen</b>."
@@ -18,7 +18,7 @@ papers:
     code: "https://github.com/heshandevaka/Trade-Off-MOL"
     poster: "https://www.dropbox.com/scl/fi/gucjt422nwxfluejd5q23/poster_MOL_tradeoff-A1.pdf?rlkey=jxkrco28ronb74i1q4qcunrx1&dl=0"
     selected: y
-    recent: y
+ 
     
   - title: "Towards Exact Gradient-based Training on Analog In-memory Computing."
     authors: "Zhaoxian Wu, Tayfun Gokmen, Malte J. Rasch and <b>Tianyi Chen</b>."
@@ -159,8 +159,11 @@ papers:
     authors: "Lisha Chen, Heshan Fernando, Yiming Ying, <b>Tianyi Chen</b>."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
     paper_pdf: "https://arxiv.org/pdf/2305.20057"
-    selected: n
-    
+    note: "<i>Shorter version in Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
+    code: "https://github.com/heshandevaka/Trade-Off-MOL"
+    poster: "https://www.dropbox.com/scl/fi/gucjt422nwxfluejd5q23/poster_MOL_tradeoff-A1.pdf?rlkey=jxkrco28ronb74i1q4qcunrx1&dl=0"
+    selected: y
+    recent: y
 
   - title: "An alternating optimization method for bilevel problems under the Polyak-Łojasiewicz condition."
     authors: "Quan Xiao, Songtao Lu, <b>Tianyi Chen</b>."
@@ -174,8 +177,11 @@ papers:
     venue: "Proc. of Intl. Conf. on Machine Learning <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
     paper_pdf: "https://arxiv.org/pdf/2302.05185"
     # video: "https://drive.google.com/file/d/0B9-P1m1JkZA7UTRuMUFWcTNueXM/view"
-    selected: n
-
+    note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
+    code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
+    selected: y
+    recent: y
+    
   - title: "Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach."
     authors: "H. Fernando, H. Shen, M. Liu, S. Chaudhury, K. Murugesan, and <b>T. Chen</b>."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Kigali, Rwanda, May 1-5, 2023. <b>(Oral presentation)</b>"
