@@ -2,7 +2,7 @@ news_items:
 
   - item: "Our early work back to 2020 on Byzantine-resilient federated learning has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
     date: "Dec 2024"
-    link: "https://signalprocessingsociety.org/community-involvement/awards-submit-award-nomination#youngauthor"
+    link: "https://signalprocessingsociety.org/community-involvement/award-recipients"
     selected: y
 
   - item: "Our extended study of the ICML 2023 paper on the penalty-based bilevel optimization methods has been accepted to <b>Mathematical Programming (Series A)</b>: On Penalty-based Bilevel Gradient Descent Method"
