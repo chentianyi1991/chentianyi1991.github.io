@@ -53,7 +53,9 @@ title: Home
   {% assign recent_news = site.data.news.news_items | where: "selected", "y" %}
   {% for news_item in recent_news %}
   <p>
-    <b>{{ news_item.date }}</b>. {{ news_item.item }}{% if news_item.link %} <a href="{{ news_item.link }}" target="_blank">(more info)</a>{% endif %}.
+    <b>{{ news_item.date }}</b>. {{ news_item.item }}
+    {% if news_item.link %} <a href="{{ news_item.link }}" target="_blank">(info)</a>{% endif %}
+    {% if news_item.link2 %} <a href="{{ news_item.link2 }}" target="_blank">(more info)</a>{% endif %}.
   </p>
   {% endfor %}
     </div>
@@ -62,7 +64,7 @@ title: Home
     {% assign old_news = site.data.news.news_items | where: "selected", "n" %}    
   {% for news_item in old_news %}
   <p>
-    <b>{{ news_item.date }}</b>. {{ news_item.item }}{% if news_item.link %} <a href="{{ news_item.link }}" target="_blank">(more info)</a>{% endif %}.
+    <b>{{ news_item.date }}</b>. {{ news_item.item }}{% if news_item.link %} <a href="{{ news_item.link }}" target="_blank">(info)</a>{% endif %}.
   </p>
   {% endfor %}
     </div>
@@ -364,7 +366,7 @@ B.S. Beijing Uni. of Posts and Telecomm., China
   <h4> Awards</h4>
   {% for awards_item in site.data.awards.awards %}
   <p>
-    <b>{{ awards_item.date }}</b>. {{ awards_item.item }}{% if awards_item.link %} <a href="{{ awards_item.link }}" target="_blank">(more info)</a>{% endif %}.
+    <b>{{ awards_item.date }}</b>. {{ awards_item.item }}{% if awards_item.link %} <a href="{{ awards_item.link }}" target="_blank">(info)</a>{% endif %}.
   </p>
   {% endfor %}
 </div>
