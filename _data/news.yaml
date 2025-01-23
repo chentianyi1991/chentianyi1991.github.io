@@ -1,8 +1,19 @@
 news_items:
+  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on the global optimality of bilevel learning algorithms and the other one on the bilevel optimization for LLM safety-aware fine-tuning"
+    link: "https://arxiv.org/pdf/2408.16087"
+    link2: "https://arxiv.org/pdf/2410.07471"
+    date: "Jan 2025"
+    selected: y 
 
-  - item: "Our early work back to 2020 on Byzantine-resilient federated learning has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
+  - item: "One collaborative paper on linearly-constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
+    link: "https://arxiv.org/pdf/2403.05786"
+    date: "Jan 2025"
+    selected: y 
+    
+  - item: "Our early work back to 2020 on <a href='https://ieeexplore.ieee.org/document/9153949'target='_blank'>Byzantine-resilient federated learningt</a> has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
     date: "Dec 2024"
     link: "https://signalprocessingsociety.org/community-involvement/award-recipients"
+    link2: "https://ecse.rpi.edu/news/ecse-student-and-faculty-won-ieee-signal-processing-society-young-author-best-paper-award"
     selected: y
 
   - item: "Our extended study of the ICML 2023 paper on the penalty-based bilevel optimization methods has been accepted to <b>Mathematical Programming (Series A)</b>: On Penalty-based Bilevel Gradient Descent Method"
