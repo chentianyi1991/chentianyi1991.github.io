@@ -5,12 +5,12 @@ news_items:
     date: "Jan 2025"
     selected: y 
 
-  - item: "One collaborative paper on linearly-constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
+  - item: "One paper on constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
     link: "https://arxiv.org/pdf/2403.05786"
     date: "Jan 2025"
     selected: y 
     
-  - item: "Our early work back to 2020 on <a href='https://ieeexplore.ieee.org/document/9153949'target='_blank'>Byzantine-resilient federated learningt</a> has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
+  - item: "Our early work back to 2020 on <a href='https://ieeexplore.ieee.org/document/9153949'target='_blank'>Byzantine-resilient federated learning</a> has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
     date: "Dec 2024"
     link: "https://signalprocessingsociety.org/community-involvement/award-recipients"
     link2: "https://ecse.rpi.edu/news/ecse-student-and-faculty-won-ieee-signal-processing-society-young-author-best-paper-award"
