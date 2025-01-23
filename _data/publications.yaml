@@ -26,7 +26,6 @@ papers:
     paper_pdf: "https://openreview.net/pdf?id=5GwbKlBIIf"
     poster: "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/96597.png?t=1731713210.0773137"
     selected: y
-    recent: y
     
   - title: "Tighter Analysis of Alternating Stochastic Gradient Method for Stochastic Nested Problems."
     authors: "Tianyi Chen, Yuejiao Sun and Wotao Yin."
@@ -86,6 +85,14 @@ papers:
     selected: n
     recent: y
 
+  - title: "Towards Exact Gradient-based Training on Analog In-memory Computing."
+    authors: "Zhaoxian Wu, Tayfun Gokmen, Malte J. Rasch and Tianyi Chen."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
+    paper_pdf: "https://openreview.net/pdf?id=5GwbKlBIIf"
+    poster: "https://neurips.cc/media/PosterPDFs/NeurIPS%202024/96597.png?t=1731713210.0773137"
+    selected: n
+    recent: y
+    
   - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints."
     authors: "Liuyuan Jiang, Quan Xiao, Victor M Tenorio, Fernando Real-Rojas, Antonio G Marques, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
