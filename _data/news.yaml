@@ -5,7 +5,7 @@ news_items:
     date: "Jan 2025"
     selected: y 
 
-  - item: "One paper on constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
+  - item: "One paper with <a href='https://web.ece.ucsb.edu/~alizadeh/'target='_blank'>Mahnoosh Alizadeh</a>'s group on constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
     link: "https://arxiv.org/pdf/2403.05786"
     date: "Jan 2025"
     selected: y 
