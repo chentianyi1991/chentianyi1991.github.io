@@ -1,6 +1,12 @@
 papers:
 
 ############# Selected Papers ##############
+  - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study."
+    authors: "Quan Xiao, Tianyi Chen."
+    venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Singapore, April 24-28, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2408.16087"
+    selected: y
+    
   - title: "On Penalty-based Bilevel Gradient Descent Method."
     authors: "Han Shen, Quan Xiao and Tianyi Chen."
     venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
