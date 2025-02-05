@@ -10,7 +10,7 @@ papers:
   - title: "On Penalty-based Bilevel Gradient Descent Method."
     authors: "Han Shen, Quan Xiao and Tianyi Chen."
     venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
-    paper_pdf: "https://arxiv.org/pdf/2302.05185.pdf"
+    paper_pdf: "https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4"
     note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Honolulu, HI, July 22-29, 2023."
     code: "https://github.com/hanshen95/penalized-bilevel-gradient-descent"
     selected: y
