@@ -1,11 +1,11 @@
 news_items:
-  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on the global optimality of bilevel learning algorithms and the other one on the bilevel optimization for LLM safety-aware post-training"
+  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on global optimality of bilevel learning algorithms and the other on bilevel optimization for LLM safety-aware post-training"
     link: "https://arxiv.org/pdf/2408.16087"
     link2: "https://arxiv.org/pdf/2410.07471"
     date: "Jan 2025"
     selected: y 
 
-  - item: "A new paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, providing the first study on the impact of non-ideal device materials on analog training through response functions"
+  - item: "A new paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, providing the first study on the impact of device materials on analog training through response functions"
     link: "https://arxiv.org/pdf/2502.06309"
     date: "Jan 2025"
     selected: y    
