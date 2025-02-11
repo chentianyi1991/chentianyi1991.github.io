@@ -5,7 +5,7 @@ news_items:
     date: "Jan 2025"
     selected: y 
 
- - item: "New paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, which provides the first study on the impact of non-ideal device materials on analog training through response functions"
+  - item: "A new paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, providing the first study on the impact of non-ideal device materials on analog training through response functions"
     link: "https://arxiv.org/pdf/2502.06309"
     date: "Jan 2025"
     selected: y    
