@@ -1,9 +1,14 @@
 news_items:
-  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on the global optimality of bilevel learning algorithms and the other one on the bilevel optimization for LLM safety-aware fine-tuning"
+  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on the global optimality of bilevel learning algorithms and the other one on the bilevel optimization for LLM safety-aware post-training"
     link: "https://arxiv.org/pdf/2408.16087"
     link2: "https://arxiv.org/pdf/2410.07471"
     date: "Jan 2025"
     selected: y 
+
+ - item: "New paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, which provides the first study on the impact of non-ideal device materials on analog training through response functions"
+    link: "https://arxiv.org/pdf/2502.06309"
+    date: "Jan 2025"
+    selected: y    
 
   - item: "One paper with <a href='https://web.ece.ucsb.edu/~alizadeh/'target='_blank'>Mahnoosh Alizadeh</a>'s group on constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
     link: "https://arxiv.org/pdf/2403.05786"
@@ -32,7 +37,8 @@ news_items:
     selected: y
 
   - item: "Three papers from our group have been accepted to the main conference of <b>NeurIPS 2024</b>"
-    link: "/index.html#publications"
+    link: "https://arxiv.org/pdf/2412.01773"
+    link2: "https://arxiv.org/pdf/2406.10148"
     date: "Oct 2024"
     selected: y
     
