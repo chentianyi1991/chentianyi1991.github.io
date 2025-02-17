@@ -1,4 +1,9 @@
 news_items:
+  - item: "Our extended study of the ICML 2024 paper on the first-order methods for bilevel reinforcement learning and RLHF has been accepted to <b>Journal of Machine Learning Research (JMLR)</b>: Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF"
+    date: "Feb 2025"
+    link: "https://arxiv.org/pdf/2402.06886"
+    selected: y
+    
   - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on global optimality of bilevel learning algorithms and the other on bilevel optimization for LLM safety-aware post-training"
     link: "https://arxiv.org/pdf/2408.16087"
     link2: "https://arxiv.org/pdf/2410.07471"
