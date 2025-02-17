@@ -64,6 +64,14 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2408.16087"
     selected: n
     recent: y
+
+  - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
+    authors: "Han Shen, Zhuoran Yang, Tianyi Chen."
+    venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, to appear, February 2025."
+    paper_pdf: "https://arxiv.org/pdf/2402.06886"
+    note: "<i>Shorter version in International Conference on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
+    selected: n
+    recent: y
     
   - title: "SEAL: Safety-enhanced aligned LLM fine-tuning via bilevel data selection."
     authors: "Han Shen, Pin-Yu Chen, Payel Das, Tianyi Chen."
