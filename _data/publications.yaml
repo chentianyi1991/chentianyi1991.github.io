@@ -58,6 +58,20 @@ papers:
 #########################  other papers/Recent #############################
 ####  year =2025 ##########
 
+  - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models."
+    authors: "Quan Xiao, Hui Yuan, AFM Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, Tianyi Chen."
+    venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vancouver, Canada, July 13-19, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2502.08808"
+    selected: n
+    recent: y
+
+  - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance."
+    authors: "Lisha Chen, Quan Xiao, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen."
+    venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vancouver, Canada, July 13-19, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2504.02854?"
+    selected: n
+    recent: y   
+
   - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study."
     authors: "Quan Xiao, Tianyi Chen."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Singapore, April 24-28, 2025."
@@ -143,14 +157,10 @@ papers:
     paper_pdf: "https://easychair.org/publications/preprint/KFPl"
     selected: n
 
- 
-
-
   - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
     authors: "Han Shen, Zhuoran Yang, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
     paper_pdf: "https://arxiv.org/pdf/2402.06886"
-    # code: "https://github.com/facebookresearch/social-catalysts"
     selected: n
     recent: y
 
@@ -158,8 +168,6 @@ papers:
     authors: "Shuai Zhang, Heshan Devaka Fernando, Miao Liu, Keerthiram Murugesan, Songtao Lu, Pin-Yu Chen, Tianyi Chen, Meng Wang."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
     paper_pdf: "https://arxiv.org/pdf/2405.15920"
-    # code: "https://github.com/sanzeed/balanced_influence_maximization"
-    # data: "https://github.com/sanzeed/balanced_influence_maximization"
     selected: n
     recent: y   
   
@@ -639,7 +647,7 @@ papers:
     selected: n
 
 
-  ###################  year = 2015 ################
+  ###################  year = 2015 or early ################
   
   
   - title: "Optimal Scheduling for Wireless On-Demand Data Packet Delivery to High-Speed Trains."
@@ -670,70 +678,4 @@ papers:
 
 
 
-  # - title: "Human Atlas: A Tool for Mapping Social Networks"
-  #   authors: "<b>Martin Saveski</b>, Eric Chu, Soroush Vosoughi, Deb Roy"
-  #   venue: "WWW'16: International Conference on the World Wide Web. 2016. (Demo)"
-  #   paper_pdf: "/assets/publications/2016_human_atlas/paper.pdf"
-  #   video: "https://www.youtube.com/watch?v=OQOUHkJdA-U"
-  #   selected: n
-
-  # - title: "Topic Modeling in Twitter: Aggregating Tweets by Conversations"
-  #   authors: "David Alvarez-Melis<sup>‡</sup>, <b>Martin Saveski<sup>‡</sup></b>"
-  #   venue: "ICWSM'16: International AAAI Conference on Web and Social Media. 2016. (Short Paper)"
-  #   paper_pdf: "/assets/publications/2016_twitter_topic_modeling/paper.pdf"
-  #   poster: "/assets/publications/2016_twitter_topic_modeling/poster.pdf"
-  #   selected: n
-
-  # - title: "Tracking the Yak: An Empirical Study of Yik Yak"
-  #   authors: "<b>Martin Saveski</b>, Sophie Chou, Deb Roy."
-  #   venue: "ICWSM'16: International AAAI Conference on Web and Social Media. 2016. (Short Paper)"
-  #   paper_pdf: "/assets/publications/2016_yikyak/paper.pdf"
-  #   poster: "/assets/publications/2016_yikyak/poster.pdf"
-  #   selected: n
-
-  # - title: "One-Pass Ranking Models for Low-Latency Product Recommendations"
-  #   authors: "Antonino Freno, <b>Martin Saveski</b>, Rodolphe Jenatton, Cédric Archambeau"
-  #   venue: "KDD'15: International Conference on Knowledge Discovery and Data Mining. 2015. (Industry Track)"
-  #   paper_pdf: "/assets/publications/2015_one_pass_ranking_models/paper.pdf"
-  #   poster: "/assets/publications/2015_one_pass_ranking_models/poster.pdf"
-  #   slides: "/assets/publications/2015_one_pass_ranking_models/slides.pdf"
-  #   selected: y
-
-  # - title: "Item Cold-Start Recommendations: Learning Local Collective Embeddings"
-  #   authors: "<b>Martin Saveski</b>, Amin Mantrach."
-  #   venue: "RecSys'14, ACM Conference Series on Recommender Systems. 2014."
-  #   paper_pdf: "/assets/publications/2014_item_cold_start/paper.pdf"
-  #   slides: "/assets/publications/2014_item_cold_start/slides.pdf"
-  #   code: "https://github.com/msaveski/LCE"
-  #   selected: y
-
-  # - title: "The Geography of Online News Engagement"
-  #   authors: "<b>Martin Saveski</b>, Daniele Quercia, Amin Mantrach"
-  #   venue: "Socinfo'14: International Conference on Social Informatics. 2014."
-  #   paper_pdf: "/assets/publications/2014_geography_of_news/paper.pdf"
-  #   selected: n
-
-  # - title: "Joint semi-supervised Learning of Hidden Conditional Random Fields and Hidden Markov Models"
-  #   authors: "Yann Soullard, <b>Martin Saveski</b>, Thierry Artières"
-  #   venue: "Pattern Recognition Letters. 2013."
-  #   paper_pdf: "/assets/publications/2014_joint_semi_supervised_learning/paper.pdf"
-  #   selected: n
-
-  # - title: "Web Services for Stream Mining: A Stream-Based Active Learning Use Case"
-  #   authors: "<b>Martin Saveski</b>, Miha Grčar"
-  #   venue: "ECML'11, Workshop on Planning to Learn and Service-Oriented Knowledge Discovery. 2011."
-  #   paper_pdf: "/assets/publications/2011_active_learning/paper.pdf"
-  #   selected: n
-
-  # - title: "Automatic Construction of Wordnets by Using Machine Translation and Language Modeling"
-  #   authors: "<b>Martin Saveski</b>, Igor Trajkovski"
-  #   venue: "In Proceedings of Seventh Language Technologies Conference. 2010."
-  #   paper_pdf: "/assets/publications/2010_wordnet_construction/paper.pdf"
-  #   slides: "/assets/publications/2010_wordnet_construction/slides.pdf"
-  #   selected: n
-
-  # - title: "Development of an English-Macedonian Machine Readable Dictionary by Using Parallel Corpora"
-  #   authors: "<b>Martin Saveski</b>, Igor Trajkovski"
-  #   venue: "Proceedings of ICT Innovations Conference. 2010."
-  #   paper_pdf: "/assets/publications/2010_machine_readable_dictionaries/paper.pdf"
-  #   selected: n
+ 

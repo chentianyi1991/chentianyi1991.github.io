@@ -1,7 +1,13 @@
 experiences:
 
+- place: "Cornell University and Cornell Tech"
+  time: "2025.8 - now"
+  title: "Associate Professor"
+  subtitle: "Electrical and Computer Engineering"
+  category: "work"
+  
 - place: "Rensselaer Polytechnic Institute"
-  time: "2019.8 - now"
+  time: "2019.8 - 2025.6"
   title: "Assistant Professor"
   subtitle: "Electrical, Computer, and Systems Engineering"
   category: "work"
