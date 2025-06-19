@@ -190,4 +190,16 @@ h4 {
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
+
+  .bio‑highlight {
+   background: #f0fbff;
+   border-left: 4px solid #2c3e50;
+   padding: 0.5rem 1.5rem;
+   margin: 1rem 0rem;
+  }
+
+ .bio‑highlight p {
+  color: #003366;
+  margin: 0;
+ }
 }
