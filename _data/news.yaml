@@ -1,11 +1,11 @@
 news_items:
-  - item: "Three papers from our students have been accepted to <b>NeurIPS 2025</b> - one breakthrough on overcoming the asymmetry nature of analog devices for computing was highlighted as <a href='https://arxiv.org/pdf/2502.06309'>an oral paper</a>, along with two interesting papers on the bilevel optimization theory and its applications to speech processing"
+  - item: "Three papers from our students have been accepted to <b>NeurIPS 2025</b> - one breakthrough on overcoming the asymmetry nature of analog devices for computing was highlighted as <a href='https://arxiv.org/pdf/2502.06309'target='_blank'><b>an oral paper</b></a>, along with two interesting papers on the bilevel optimization theory and its applications to speech processing"
     link: "https://arxiv.org/pdf/2507.20400"
     link2: "https://arxiv.org/pdf/2508.09228"
     date: "Sep 2025"
     selected: y    
 
-   - item: "We are excited to welcome our first new member (<a href='https://shawnricecake.github.io/'><b>Xuan Shen</b></a>) to our group at Cornell Tech"
+   - item: "We are excited to welcome our first new member (<a href='https://shawnricecake.github.io/'target='_blank'><b>Xuan Shen</b></a>) to our group at Cornell Tech"
     date: "Sep 2025"
     selected: y 
     
