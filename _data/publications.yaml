@@ -171,7 +171,6 @@ papers:
     venue: "Proc. of IEEE Global Comm. Conf. <b>(Globecom)</b>, Cape Town, South Africa, December 6 - 10, 2024."
     paper_pdf: "https://arxiv.org/pdf/2409.00124"
     selected: n
-    recent: y  
   
   - title: "Transferable Learning of GCN Sampling Graph Data Clusters from Different Power Systems."
     authors: "T. Wu, A. Scaglione, D. Arnold, and <b>T. Chen</b>."
@@ -191,15 +190,13 @@ papers:
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
     paper_pdf: "https://arxiv.org/pdf/2405.15920"
     selected: n
-    recent: y   
   
   - title: "M2ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization."
     authors: "AFM Saif, L. Chen, X. Cui, S. Lu, B. Kingsbury, and <b>T. Chen</b>."
     venue: "Proc. of Intl. Conf. of the International Speech Communication Association <b>(Interspeech)</b>, Kos Island, Greece, September 1 - 5, 2024."
     paper_pdf: "https://www.isca-archive.org/interspeech_2024/saif24_interspeech.pdf"
     code: "https://github.com/afmsaif/M2ASR"
-    selected: n
-    recent: y   
+    selected: n  
 
   - title: "Enhancing In-context Learning via Linear Probe Calibration."
     authors: "Momin Abbas, Yi Zhou, Parikshit Ram, Nathalie Baracaldo, Horst Samulowitz, Theodoros Salonidis, Tianyi Chen."
@@ -207,7 +204,6 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2401.12406"
     code: "https://github.com/mominabbass/LinC"
     selected: n
-    recent: y
     
   - title: "Joint Unsupervised and Supervised Training for Automatic Speech Recognition."
     authors: "AFM Saif, X. Cui, H. Shen, S. Lu, B. Kingsbury, and <b>T. Chen</b>."
@@ -245,7 +241,6 @@ papers:
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, New Orleans, LA, December 10-16, 2023."
     paper_pdf: "https://arxiv.org/pdf/2306.02422"
     selected: n
-    recent: y
      
   - title: "On Penalty-based Bilevel Gradient Descent Method."
     authors: "Han Shen, Q. Xiao, and <b>T. Chen</b>."
