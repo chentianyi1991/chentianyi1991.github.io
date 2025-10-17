@@ -57,7 +57,29 @@ papers:
 
 #########################  other papers/Recent #############################
 ####  year =2025 ##########
+  - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions."
+    authors: "Zhaoxian Wu, Quan Xiao, Tayfun Gokmen, Omobayode Fagbohungbe, Tianyi Chen."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2502.06309"
+    selected: y
+    recent: y
 
+  - title: "Beyond Value Functions: Single-loop Bilevel Optimization under Flatness Conditions."
+    authors: "Liuyuan Jiang, Quan Xiao, Lisha Chen, Tianyi Chen."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2507.20400"
+    code: "https://github.com/afmsaif/Objective_Soups"
+    selected: n
+    recent: y
+
+  - title: "Objective Soups: Multilingual Multi-Task Modeling for Speech Processing."
+    authors: "AFM Saif, Lisha Chen, Xiaodong Cui, Songtao Lu, Brian Kingsbury, Tianyi Chen."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025."
+    paper_pdf: "https://arxiv.org/pdf/2508.09228"
+    code: "https://github.com/afmsaif/Objective_Soups"
+    selected: n
+    recent: y
+    
   - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models."
     authors: "Quan Xiao, Hui Yuan, AFM Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vancouver, Canada, July 13-19, 2025."
