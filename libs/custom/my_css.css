@@ -233,3 +233,16 @@ h4 {
   margin: 0;
  }
 }
+
+@media (max-width: 749px) {
+  .navbar {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  .navbar-link {
+    display: inline-block;
+    margin: 10px;
+    line-height: normal;
+  }
+}
