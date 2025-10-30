@@ -234,15 +234,44 @@ h4 {
  }
 }
 
+/* ====== Improved Mobile Navbar ====== */
 @media (max-width: 749px) {
   .navbar {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;       /* center horizontally */
+    align-items: center;
+    flex-wrap: wrap;               /* allow wrapping if too narrow */
+    background: #fff;
     border-bottom: 1px solid #eee;
+    padding: 8px 0;
   }
+
+  .navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;       /* evenly spaced links */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .navbar-item {
+    margin: 0 10px;
+  }
+
   .navbar-link {
     display: inline-block;
-    margin: 10px;
-    line-height: normal;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px 0;
+  }
+
+  .navbar-link:hover {
+    color: #33C3F0;                /* your highlight color */
+    border-bottom: 2px solid #33C3F0;
   }
 }
