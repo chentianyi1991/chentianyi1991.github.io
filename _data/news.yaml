@@ -4,7 +4,7 @@ news_items:
     date: "Jan 2026"
     selected: y    
 
-  - item: "<a href='https://news.cornell.edu/'><b>Cornell Chronicle/b></a> covers our group's research on \"greener\" AI fixes, featuring our new method for training analog chips to tackle the growing energy demands of AI"
+  - item: "<a href='https://news.cornell.edu/'><b>Cornell Chronicle</b></a> covers our group's research on \"greener\" AI fixes, featuring our new method for training analog chips to tackle the growing energy demands of AI"
     link: "https://news.cornell.edu/stories/2025/12/researchers-tackle-ais-energy-problem-greener-fix"
     date: "Dec 2025"
     selected: y  
