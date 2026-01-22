@@ -14,7 +14,7 @@ news_items:
     date: "Dec 2025"
     selected: y   
 
-  - item: "We are honored to receive an NVIDIA Academic Grant on extensive A100 GPU hours to support our research on a bilevel optimization paradigm for efficient data selection and continual learning"
+  - item: "We are honored to receive an <b>NVIDIA Academic Grant</b> on extensive A100 GPU hours to support our research on a bilevel optimization paradigm for efficient data selection and continual learning"
     link: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/"
     date: "Nov 2025"
     selected: y   
