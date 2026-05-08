@@ -1,18 +1,28 @@
 news_items:
+  - item: "Our paper on dynamic symmetric point tracking for analog in-memory training has been accepted to <b>ICML 2026</b>, continuing our group's principled approach to handling non-ideal references in analog devices"
+    link: "https://arxiv.org/pdf/2602.21321"
+    date: "May 2026"
+    selected: y
+
+  - item: "Our paper with IBM Research characterizing the <b>fundamental safety-capability trade-offs</b> in fine-tuning large language models has been published in <b>PNAS Nexus</b>"
+    link: "https://academic.oup.com/pnasnexus/article/5/4/pgag097/8571892"
+    date: "Apr 2026"
+    selected: y
+
   - item: "Our paper on developing principled algorithmic solutions to address the limited-precision nature of analog computing devices has been accepted to <b>AISTATS 2026</b>"
     link: "https://arxiv.org/pdf/2510.02516"
     date: "Jan 2026"
-    selected: y    
+    selected: y
 
   - item: "<a href='https://news.cornell.edu/'><b>Cornell Chronicle</b></a> covers our group's research on \"greener\" AI fixes, featuring our new method for training analog chips to tackle the growing energy demands of AI"
     link: "https://news.cornell.edu/stories/2025/12/researchers-tackle-ais-energy-problem-greener-fix"
     date: "Dec 2025"
     selected: y  
     
-  - item: "With Osvaldo Simeone and Bipin Rajendran, we will present a tutorial at <b>ICASSP 2026</b> on analog and bio-inspired solutions for computing from models, devices, and optimization"
-    link: "https://2026.ieeeicassp.org/tutorials/"
+  - item: "With Osvaldo Simeone and Bipin Rajendran, we will present a tutorial at <b>ICASSP 2026</b>: <i>Advances in Neuromorphic Computing: Models, Hardware, and Optimization</i>"
+    link: "https://sites.google.com/view/osvaldosimeone/research/icassp-2026-tutorial"
     date: "Dec 2025"
-    selected: y   
+    selected: y
 
   - item: "We are honored to receive an <b>NVIDIA Academic Grant</b> on extensive A100 GPU hours to support our research on a bilevel optimization paradigm for efficient data selection and continual learning"
     link: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/"
@@ -44,12 +54,12 @@ news_items:
     link: "https://arxiv.org/pdf/2502.08808"
     link2: "https://arxiv.org/pdf/2504.02854"
     date: "May 2025"
-    selected: y 
+    selected: n
 
   - item: "I am invited to present our work at the Department of Electrical and Computer Engineering, <b>Johns Hopkins University</b>"
     link: "https://engineering.jhu.edu/ece/"
     date: "Feb 2025"
-    selected: y 
+    selected: n
 
   - item: "Our extended study of the ICML 2024 paper on the first-order methods for bilevel reinforcement learning (RL) and RL with human feedback (RLHF) has been accepted to <b>Journal of Machine Learning Research (JMLR)</b>: Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF"
     date: "Feb 2025"
@@ -65,12 +75,12 @@ news_items:
   - item: "A new paper extending our <b>NeurIPS 2024</b> work on <a href='https://arxiv.org/pdf/2406.12774'target='_blank'>analog in-memory training</a> to general resistive devices is online, providing the first study on the impact of device materials on analog training through response functions"
     link: "https://arxiv.org/pdf/2502.06309"
     date: "Jan 2025"
-    selected: y    
+    selected: n
 
   - item: "One paper with <a href='https://web.ece.ucsb.edu/~alizadeh/'target='_blank'>Mahnoosh Alizadeh</a>'s group on constrained online convex optimization has been accepted to <b>AISTATS 2025</b>"
     link: "https://arxiv.org/pdf/2403.05786"
     date: "Jan 2025"
-    selected: y 
+    selected: n
     
   - item: "Our early work back to 2020 on <a href='https://ieeexplore.ieee.org/document/9153949'target='_blank'>Byzantine-resilient federated learning</a> has been honored with the <b>IEEE Signal Processing Society Young Author Best Paper Award</b>"
     date: "Dec 2024"
@@ -81,38 +91,38 @@ news_items:
   - item: "Our extended study of the ICML 2023 paper on the penalty-based bilevel optimization methods has been accepted to <b>Mathematical Programming (Series A)</b>: On Penalty-based Bilevel Gradient Descent Method"
     date: "Dec 2024"
     link: "https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4"
-    selected: y
+    selected: n
 
   - item: "I am honored to be invited to <b>Portuguese American Optimization Workshop</b> (PAOW), colocated with MOPTA 2025"
     link: "https://coral.ise.lehigh.edu/paow/"
     date: "Nov 2024"
-    selected: y
+    selected: n
 
   - item: "I serve as an Area Chair for AISTATS 2025, ICLR 2025, ICML 2025, and the newly founded <b>CPAL 2025</b>"
     date: "Oct 2024"
     link: "https://cpal.cc/area_chairs/"
-    selected: y
+    selected: n
 
   - item: "Three papers from our group have been accepted to the main conference of <b>NeurIPS 2024</b>"
     link: "https://arxiv.org/pdf/2412.01773"
     link2: "https://arxiv.org/pdf/2406.10148"
     date: "Oct 2024"
-    selected: y
+    selected: n
     
   - item: "I am invited to present our work at The Foundations of Information, Networks, and Decision Systems <b>(FIND) Seminar, Cornell University</b>"
     link: "https://find.engineering.cornell.edu/seminar/"
     date: "Sep 2024"
-    selected: y
+    selected: n
 
   - item: "I am invited to serve as an Associate Editor for IEEE Transactions on Signal Processing."
     link: "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing/editorial-board"
     date: "Sep 2024"
-    selected: y
+    selected: n
 
   - item: "I am invited to present our work on the theory of analog in-memory training at The CPCC Seminar, at <b>University of California, Irvine</b>, and The Engineering Seminar, at <b>King's College London</b>"
     link: "https://cpcc.uci.edu/events.php#CPCCSeminarChen"
     date: "Sep 2024"
-    selected: y
+    selected: n
 
   - item: "I presented a tutorial on the foundation of bilevel learning and its application to LLMs at <b>MLSP 2024</b>, London, UK"
     link: "https://2024.ieeemlsp.org/toturials/"
@@ -122,12 +132,12 @@ news_items:
   - item: "We are excited to receive <b>a new collaborative NSF project</b> with UCI on bilevel optimization for graph representation learning"
     link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412486&HistoricalAwards=false"
     date: "Aug 2024"
-    selected: y
+    selected: n
 
   - item: "Our paper on using the In-Context Learning ability of LLM for wireless symbol detection problems has been accepted to <b>GLOBECOM 2024</b>"
     link: "https://arxiv.org/pdf/2409.00124"
     date: "Jul 2024"
-    selected: y 
+    selected: n
   
   - item: "My Ph.D. student Lisha Chen will join the <b>Department of Electrical and Computer Engineering, University of Rochester</b> in 2025 as a <b>tenure-track Assistant Professor!</b>"
     link: "https://lisha-chen.github.io/"
