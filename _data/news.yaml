@@ -48,7 +48,7 @@ news_items:
   - item: "I am honored to be promoted to <b>Associate Professor with tenure</b> at RPI, effective July 2025"
     link: "https://ecse.rpi.edu/news/ecse-faculty-meng-wang-and-tianyi-chen-promoted"
     date: "May 2025"
-    selected: y 
+    selected: n 
 
   - item: "Two papers have been accepted to <b>ICML 2025</b> with one on hyperparameter tuning for diffusion models (Poster) and the other on preference-guided multi-objective optimization (Spotlight)"
     link: "https://arxiv.org/pdf/2502.08808"
