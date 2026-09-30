@@ -4,12 +4,8 @@ news_items:
     date: "Sep 2026"
     selected: y
 
-  - item: "I will give a <b>keynote</b> at the <b>NeurIPS 2026 Workshop on On-Device Intelligence</b>, presenting an overview of our work on analog on-device training and inference"
+  - item: "At <b>NeurIPS 2026</b>, I will give a <b>keynote</b> on our work on analog on-device training and inference at the Workshop on On-Device Intelligence, and serve as a panelist at the Tutorial on Multi-Objective Optimization for Modern Machine Learning"
     link: "https://odi2026.github.io/"
-    date: "Sep 2026"
-    selected: y
-
-  - item: "I will serve as a panelist at the <b>NeurIPS 2026 Tutorial on Multi-Objective Optimization for Modern Machine Learning</b>"
     date: "Sep 2026"
     selected: y
 
