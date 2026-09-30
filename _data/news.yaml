@@ -9,6 +9,10 @@ news_items:
     date: "Sep 2026"
     selected: y
 
+  - item: "I will serve as a panelist at the <b>NeurIPS 2026 Tutorial on Multi-Objective Optimization for Modern Machine Learning</b>"
+    date: "Sep 2026"
+    selected: y
+
   - item: "I am honored to be promoted to <b>Associate Professor with indefinite tenure</b> at <b>Cornell University</b>, effective July 2026"
     date: "Jul 2026"
     selected: y
