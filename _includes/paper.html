@@ -1,0 +1,39 @@
+{% comment %}
+  One publication entry. Usage: {% include paper.html paper=paper %}
+  Optional fields in _data/publications.yaml:
+    fig:   "./assets/pub_figure/xxx.webp"  -> figure on the left (Highlighted tab only, via show_fig=true)
+    label: "NeurIPS'26"                    -> badge on the figure (or before the title)
+    award: "Oral"                          -> trophy line
+{% endcomment %}
+{% assign p = include.paper %}
+{% if include.show_fig and p.fig %}{% assign fig = p.fig %}{% else %}{% assign fig = nil %}{% endif %}
+<div class="paper{% if fig %} paper--figure{% endif %}">
+  {% if fig %}
+  <div class="paper-figure">
+    <div class="fig-container">
+      <img src="{{ fig | relative_url }}" alt="{{ p.title | strip_html | escape }}" loading="lazy">
+      {% if p.label %}<span class="label-badge">{{ p.label }}</span>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  <div class="paper-details">
+    <p class="title">
+      {% unless fig %}{% if p.label %}<span class="label-badge label-badge--inline">{{ p.label }}</span>{% endif %}{% endunless %}
+      {% if p.paper_pdf %}<a class="paper-title-link" href="{{ p.paper_pdf }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}<b>{{ p.title }}</b>{% endif %}
+    </p>
+    <p>{{ p.authors }}</p>
+    <p><i>{{ p.venue }}</i></p>
+    {% if p.award %}<p class="paper-award"><i class="fa-solid fa-trophy"></i> <b>{{ p.award }}</b></p>{% endif %}
+    {% if p.note %}<p>{{ p.note }}</p>{% endif %}
+    <div class="paper-buttons">
+      {% if p.paper_pdf %}<a class="button" href="{{ p.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>{% endif %}
+      {% if p.slides %}<a class="button" href="{{ p.slides | prepend: site.baseurl }}" target="_blank">Slides</a>{% endif %}
+      {% if p.poster %}<a class="button" href="{{ p.poster | prepend: site.baseurl }}" target="_blank">Poster</a>{% endif %}
+      {% if p.video %}<a class="button" href="{{ p.video }}" target="_blank">Video</a>{% endif %}
+      {% if p.code %}<a class="button" href="{{ p.code }}" target="_blank">Code</a>{% endif %}
+      {% if p.blog %}<a class="button" href="{{ p.blog }}" target="_blank">Blog</a>{% endif %}
+      {% if p.talk %}<a class="button" href="{{ p.talk }}" target="_blank">Talk</a>{% endif %}
+      {% if p.data %}<a class="button" href="{{ p.data }}" target="_blank">Data</a>{% endif %}
+    </div>
+  </div>
+</div>

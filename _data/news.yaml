@@ -1,6 +1,20 @@
 news_items:
+  - item: "Our paper on why the Forward-Forward Algorithm, a backprop-free learning rule appealing for analog and physical hardware, underperforms backpropagation has been accepted to <b>NeurIPS 2026</b>"
+    link: "https://arxiv.org/abs/2609.33240"
+    date: "Sep 2026"
+    selected: y
+
+  - item: "I will give a <b>keynote</b> at the <b>NeurIPS 2026 Workshop on On-Device Intelligence</b>, presenting an overview of our work on analog on-device training and inference"
+    link: "https://odi2026.github.io/"
+    date: "Sep 2026"
+    selected: y
+
+  - item: "I am honored to be promoted to <b>Associate Professor with indefinite tenure</b> at <b>Cornell University</b>, effective July 2026"
+    date: "Jul 2026"
+    selected: y
+
   - item: "With Osvaldo Simeone and Bipin Rajendran, we will present a tutorial at <b>ICASSP 2026</b>: <i>Advances in Neuromorphic Computing: Models, Hardware, and Optimization</i>"
-    link: "https://sites.google.com/view/osvaldosimeone/research/icassp-2026-tutorial"
+    link: "https://drive.google.com/drive/folders/1H0VhbVfVvHd-Isf8SqQQa2h_gqClOp9A"
     date: "May 2026"
     selected: y
     
@@ -24,7 +38,7 @@ news_items:
     date: "Dec 2025"
     selected: y  
 
-  - item: "We are honored to receive an <b>NVIDIA Academic Grant</b> on extensive A100 GPU hours to support our research on a bilevel optimization paradigm for efficient data selection and continual learning"
+  - item: "We are honored to receive an <b>NVIDIA Academic Grant</b> on extensive A100 GPU hours to support our research on bilevel data selection for LLM fine-tuning and alignment"
     link: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/"
     date: "Nov 2025"
     selected: y   
@@ -61,14 +75,14 @@ news_items:
     date: "Feb 2025"
     selected: n
 
-  - item: "Our extended study of the ICML 2024 paper on the first-order methods for bilevel reinforcement learning (RL) and RL with human feedback (RLHF) has been accepted to <b>Journal of Machine Learning Research (JMLR)</b>: Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF"
+  - item: "Our paper on principled penalty methods for <b>RL from human feedback (RLHF)</b> and bilevel reinforcement learning, extending our ICML 2024 paper, has been accepted to <b>Journal of Machine Learning Research (JMLR)</b>: <i>Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF</i>"
     date: "Feb 2025"
     link: "https://arxiv.org/pdf/2402.06886"
     selected: y
     
-  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b> with one on global optimality of bilevel learning algorithms and the other on bilevel optimization for LLM safety-aware post-training"
-    link: "https://arxiv.org/pdf/2408.16087"
-    link2: "https://arxiv.org/pdf/2410.07471"
+  - item: "Two papers from our group have been accepted to <b>ICLR 2025</b>: <b>SEAL</b>, bilevel data selection for safety-aware LLM post-training, and a companion study on the global optimality of bilevel learning algorithms"
+    link: "https://arxiv.org/pdf/2410.07471"
+    link2: "https://arxiv.org/pdf/2408.16087"
     date: "Jan 2025"
     selected: y 
 
@@ -86,7 +100,7 @@ news_items:
     date: "Dec 2024"
     link: "https://signalprocessingsociety.org/community-involvement/award-recipients"
     link2: "https://ecse.rpi.edu/news/ecse-student-and-faculty-won-ieee-signal-processing-society-young-author-best-paper-award"
-    selected: y
+    selected: n
 
   - item: "Our extended study of the ICML 2023 paper on the penalty-based bilevel optimization methods has been accepted to <b>Mathematical Programming (Series A)</b>: On Penalty-based Bilevel Gradient Descent Method"
     date: "Dec 2024"

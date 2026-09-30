@@ -3,7 +3,37 @@ papers:
 ############# Selected Papers ##############
 
 ####### Thrust I: Hardware-aware physical neural network training #######
+  - title: "Making Analog Training Scale: Co-Designing Mapping, Optimizer, and Converters."
+    authors: "Zhaoxian Wu, Tayfun Gokmen, Omobayode Fagbohungbe, T. Patrick Xiao, Tianyi Chen."
+    venue: "arXiv preprint, 2026."
+    paper_pdf: "https://arxiv.org/abs/2609.36584"
+    code: "https://github.com/Zhaoxian-Wu/scalable-analog-training"
+    label: "New preprint"
+    fig: "./assets/pub_figure/2026-scalable-analog.webp"
+    selected: y
+    recent: y
+    section: hardware
+
+  - title: "The Price of Locality: Why Forward-Forward Underperforms Backpropagation?"
+    authors: "Zhaoxian Wu, Haichuan Liu, Tianyi Chen."
+    venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Sydney, Australia, Dec. 2026."
+    paper_pdf: "https://arxiv.org/abs/2609.33240"
+    code: "https://github.com/Zhaoxian-Wu/ffa-theory"
+    label: "NeurIPS'26"
+    selected: n
+    recent: y
+    section: hardware
+
+  - title: "Robust Parameter-Efficient LLM Adaptation on Analog Hardware."
+    authors: "Jindan Li, Zhaoxian Wu, Tianyi Chen."
+    venue: "<i>NeurIPS Workshop on On-Device Intelligence</i> <b>(ODI)</b>, Sydney, Australia, Dec. 2026."
+    label: "NeurIPS'26 Workshop"
+    recent: y
+    section: hardware
+
   - title: "Dynamic Symmetric Point Tracking: Tackling Non-ideal Reference in Analog In-memory Training."
+    label: "ICML'26"
+    fig: "./assets/pub_figure/2026-symmetric-point.webp"
     authors: "Quan Xiao, Jindan Li, Zhaoxian Wu, Tayfun Gokmen, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, 2026."
     paper_pdf: "https://arxiv.org/pdf/2602.21321"
@@ -12,14 +42,17 @@ papers:
     section: hardware
 
   - title: "In-memory Training on Analog Devices with Limited Conductance States via Multi-tile Residual Learning."
+    label: "AISTATS'26"
     authors: "Jindan Li, Zhaoxian Wu, Gaowen Liu, Tayfun Gokmen, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics</i> <b>(AISTATS)</b>, 2026."
     paper_pdf: "https://arxiv.org/pdf/2510.02516"
-    selected: y
+    selected: n
     recent: y
     section: hardware
 
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions."
+    label: "NeurIPS'25 Oral"
+    fig: "./assets/pub_figure/2025-response.webp"
     authors: "Zhaoxian Wu, Quan Xiao, Tayfun Gokmen, Omobayode Fagbohungbe, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025. <b>(Oral)</b>."
     paper_pdf: "https://arxiv.org/pdf/2502.06309"
@@ -27,6 +60,8 @@ papers:
     section: hardware
 
   - title: "Towards Exact Gradient-based Training on Analog In-memory Computing."
+    label: "NeurIPS'24"
+    fig: "./assets/pub_figure/2024-exact-gradient.webp"
     authors: "Zhaoxian Wu, Tayfun Gokmen, Malte J. Rasch and Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
     paper_pdf: "https://openreview.net/pdf?id=5GwbKlBIIf"
@@ -35,15 +70,29 @@ papers:
     section: hardware
 
 ####### Thrust II: Multi-objective LLM fine-tuning and alignment #######
-  - title: "Fundamental Safety-Capability Trade-offs in Fine-tuning Large Language Models."
-    authors: "Pin-Yu Chen, Han Shen, Payel Das, Tianyi Chen."
-    venue: "<i>PNAS Nexus</i>, vol. 5, no. 4, April 2026."
-    paper_pdf: "https://academic.oup.com/pnasnexus/article/5/4/pgag097/8571892"
+  - title: "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning."
+    label: "Preprint"
+    fig: "./assets/pub_figure/2026-bridge.webp"
+    authors: "Quan Xiao, Mingda Liu, Gaowen Liu, Katsuki Fujisawa, Tianyi Chen."
+    venue: "arXiv preprint, 2026."
+    paper_pdf: "https://arxiv.org/pdf/2609.36505"
+    blog: "https://jenniferquanxiao.github.io/BRIDGE/"
     selected: y
     recent: y
     section: alignment
 
+  - title: "Fundamental Safety-Capability Trade-offs in Fine-tuning Large Language Models."
+    label: "PNAS Nexus'26"
+    authors: "Pin-Yu Chen, Han Shen, Payel Das, Tianyi Chen."
+    venue: "<i>PNAS Nexus</i>, vol. 5, no. 4, April 2026."
+    paper_pdf: "https://academic.oup.com/pnasnexus/article/5/4/pgag097/8571892"
+    selected: n
+    recent: y
+    section: alignment
+
   - title: "SEAL: Safety-enhanced Aligned LLM Fine-tuning via Bilevel Data Selection."
+    label: "ICLR'25"
+    fig: "./assets/pub_figure/2025-seal.webp"
     authors: "Han Shen, Pin-Yu Chen, Payel Das, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Learning Representations</i> <b>(ICLR)</b>, Singapore, April 24-28, 2025."
     paper_pdf: "https://arxiv.org/pdf/2410.07471"
@@ -52,6 +101,8 @@ papers:
     section: alignment
 
   - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
+    label: "JMLR'25"
+    fig: "./assets/pub_figure/2025-bilevel-rlhf.webp"
     authors: "Han Shen, Zhuoran Yang, Tianyi Chen."
     venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, 2025."
     paper_pdf: "https://arxiv.org/pdf/2402.06886"
@@ -61,6 +112,8 @@ papers:
 
 ####### Foundations: bilevel and multi-objective optimization #######
   - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study."
+    label: "ICLR'25"
+    fig: "./assets/pub_figure/2025-global-optimality.webp"
     authors: "Quan Xiao, Tianyi Chen."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Singapore, April 24-28, 2025."
     paper_pdf: "https://arxiv.org/pdf/2408.16087"
@@ -68,6 +121,8 @@ papers:
     section: foundations
 
   - title: "On Penalty-based Bilevel Gradient Descent Method."
+    label: "Math. Prog."
+    fig: "./assets/pub_figure/2025-pbgd.webp"
     authors: "Han Shen, Quan Xiao and Tianyi Chen."
     venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
     paper_pdf: "https://link.springer.com/article/10.1007/s10107-025-02194-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250205&utm_content=10.1007/s10107-025-02194-4"
@@ -77,6 +132,8 @@ papers:
     section: foundations
 
   - title: "Three-Way Trade-Off in Multi-Objective Learning: Optimization, Generalization and Conflict-Avoidance."
+    label: "JMLR'24"
+    fig: "./assets/pub_figure/2024-three-way-tradeoff.webp"
     authors: "Lisha Chen, Heshan Fernando, Yiming Ying, and Tianyi Chen."
     venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, vol 25, pp. 1-53, 2024."
     paper_pdf: "https://www.jmlr.org/papers/volume25/23-1287/23-1287.pdf"
@@ -87,13 +144,13 @@ papers:
     section: foundations
     
   - title: "LAG: Lazily Aggregated Gradient for Communication-Efficient Distributed Learning."
+    label: "NeurIPS'18"
     authors: "Tianyi Chen, Georgios B. Giannakis, Tao Sun and Wotao Yin."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Montreal, Canada, December 2-8, 2018."
     paper_pdf: "http://papers.nips.cc/paper/7752-lag-lazily-aggregated-gradient-for-communication-efficient-distributed-learning.pdf"
     poster: "https://www.dropbox.com/s/m80ytd2kqn4b72p/poster_nips.pdf?dl=0"
     code: "https://github.com/chentianyi1991/LAG-code"
-    selected: y
-    section: foundations
+    selected: n
 
 ####### Other notable earlier works (kept in All) #######
   - title: "Tighter Analysis of Alternating Stochastic Gradient Method for Stochastic Nested Problems."
@@ -113,6 +170,7 @@ papers:
 #########################  other papers/Recent #############################
 ####  year =2025 ##########
   - title: "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions."
+    label: "NeurIPS'25 Oral"
     authors: "Zhaoxian Wu, Quan Xiao, Tayfun Gokmen, Omobayode Fagbohungbe, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025. <b>(Oral)</b>."
     paper_pdf: "https://arxiv.org/pdf/2502.06309"
@@ -120,6 +178,7 @@ papers:
     recent: y
 
   - title: "Beyond Value Functions: Single-loop Bilevel Optimization under Flatness Conditions."
+    label: "NeurIPS'25"
     authors: "Liuyuan Jiang, Quan Xiao, Lisha Chen, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025."
     paper_pdf: "https://arxiv.org/pdf/2507.20400"
@@ -128,6 +187,7 @@ papers:
     recent: y
 
   - title: "Objective Soups: Multilingual Multi-Task Modeling for Speech Processing."
+    label: "NeurIPS'25"
     authors: "AFM Saif, Lisha Chen, Xiaodong Cui, Songtao Lu, Brian Kingsbury, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, Dec. 2-7, 2025."
     paper_pdf: "https://arxiv.org/pdf/2508.09228"
@@ -136,6 +196,7 @@ papers:
     recent: y
     
   - title: "A First-order Generative Bilevel Optimization Framework for Diffusion Models."
+    label: "ICML'25"
     authors: "Quan Xiao, Hui Yuan, AFM Saif, Gaowen Liu, Ramana Kompella, Mengdi Wang, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vancouver, Canada, July 13-19, 2025."
     paper_pdf: "https://arxiv.org/pdf/2502.08808"
@@ -143,6 +204,7 @@ papers:
     recent: y
 
   - title: "Efficient First-Order Optimization on the Pareto Set for Multi-Objective Learning under Preference Guidance."
+    label: "ICML'25"
     authors: "Lisha Chen, Quan Xiao, Ellen Hidemi Fukuda, Xinyi Chen, Kun Yuan, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vancouver, Canada, July 13-19, 2025."
     paper_pdf: "https://arxiv.org/pdf/2504.02854?"
@@ -150,6 +212,7 @@ papers:
     recent: y   
 
   - title: "Unlocking Global Optimality in Bilevel Optimization: A Pilot Study."
+    label: "ICLR'25"
     authors: "Quan Xiao, Tianyi Chen."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Singapore, April 24-28, 2025."
     paper_pdf: "https://arxiv.org/pdf/2408.16087"
@@ -157,6 +220,7 @@ papers:
     recent: y
 
   - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
+    label: "JMLR'25"
     authors: "Han Shen, Zhuoran Yang, Tianyi Chen."
     venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, to appear, February 2025."
     paper_pdf: "https://arxiv.org/pdf/2402.06886"
@@ -165,6 +229,7 @@ papers:
     recent: y
     
   - title: "SEAL: Safety-enhanced aligned LLM fine-tuning via bilevel data selection."
+    label: "ICLR'25"
     authors: "Han Shen, Pin-Yu Chen, Payel Das, Tianyi Chen."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Singapore, April 24-28, 2025."
     paper_pdf: "https://arxiv.org/pdf/2410.07471"
@@ -173,6 +238,7 @@ papers:
     recent: y
 
   - title: "Optimistic Safety for Linearly-Constrained Online Convex Optimization."
+    label: "AISTATS'25"
     authors: "Spencer Hutchinson, Tianyi Chen, Mahnoosh Alizadeh."
     venue: "<i>Proc. of Intl. Conf. on Artificial Intelligence and Statistics</i> <b>(AISTATS)</b>, Mai Khao, Thailand, May 3-5, 2025."
     paper_pdf: "https://arxiv.org/pdf/2403.05786"
@@ -182,6 +248,7 @@ papers:
 ####  year =2024 ##########
 
   - title: "FERERO: A Flexible Framework for Preference-Guided Multi-Objective Learning."
+    label: "NeurIPS'24"
     authors: "Lisha Chen, AFM Saif, Yanning Shen, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
     paper_pdf: "https://arxiv.org/pdf/2412.01773"
@@ -191,6 +258,7 @@ papers:
     recent: y
 
   - title: "Towards Exact Gradient-based Training on Analog In-memory Computing."
+    label: "NeurIPS'24"
     authors: "Zhaoxian Wu, Tayfun Gokmen, Malte J. Rasch and Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
     paper_pdf: "https://openreview.net/pdf?id=5GwbKlBIIf"
@@ -199,6 +267,7 @@ papers:
     recent: y
     
   - title: "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints."
+    label: "NeurIPS'24"
     authors: "Liuyuan Jiang, Quan Xiao, Victor M Tenorio, Fernando Real-Rojas, Antonio G Marques, Tianyi Chen."
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Vancouver, Canada, December 9-15, 2024."
     paper_pdf: "https://arxiv.org/pdf/2406.10148"
@@ -208,6 +277,7 @@ papers:
     recent: y  
 
   - title: "Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition."
+    label: "TASLP'24"
     authors: "X. Cui, AFM Saif, S. Lu, L. Chen, <b>T. Chen</b>, B. Kingsbury, and G. Saon."
     venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing <b>(TASLP)</b>, December 2024."
     paper_pdf: "https://arxiv.org/pdf/2412.08548"
@@ -234,6 +304,7 @@ papers:
     selected: n
 
   - title: "Principled Penalty-based Methods for Bilevel Reinforcement Learning and RLHF."
+    label: "ICML'24"
     authors: "Han Shen, Zhuoran Yang, Tianyi Chen."
     venue: "<i>Proc. of Intl. Conf. on Machine Learning</i> <b>(ICML)</b>, Vienna, Austria, July 21-27, 2024."
     paper_pdf: "https://arxiv.org/pdf/2402.06886"
@@ -282,6 +353,7 @@ papers:
 #############  year = 2023 ###############
 
   - title: "Three-way trade-off in multi-objective learning: Optimization, generalization and conflict-avoidance."
+    label: "JMLR'24"
     authors: "Lisha Chen, Heshan Fernando, Yiming Ying, Tianyi Chen."
     venue: "<i>Journal of Machine Learning Research</i> <b>(JMLR)</b>, vol 25, pp. 1-53, 2024."
     paper_pdf: "https://arxiv.org/pdf/2305.20057"
@@ -298,6 +370,7 @@ papers:
     selected: n
      
   - title: "On Penalty-based Bilevel Gradient Descent Method."
+    label: "Math. Prog."
     authors: "Han Shen, Q. Xiao, and <b>T. Chen</b>."
     venue: "<i>Mathematical Programming</i> <b>(MAPR)</b>, to appear, pp. 1-38, 2025."
     paper_pdf: "https://arxiv.org/pdf/2302.05185"
@@ -308,6 +381,7 @@ papers:
     recent: y
     
   - title: "Mitigating Gradient Bias in Multi-objective Learning: A Provably Convergent Approach."
+    label: "ICLR'23 Oral"
     authors: "H. Fernando, H. Shen, M. Liu, S. Chaudhury, K. Murugesan, and <b>T. Chen</b>."
     venue: "Proc. of Intl. Conf. on Learning Representations <b>(ICLR)</b>, Kigali, Rwanda, May 1-5, 2023. <b>(Oral presentation)</b>"
     paper_pdf: "https://arxiv.org/pdf/2210.12624"
