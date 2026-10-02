@@ -1,7 +1,7 @@
 news_items:
   - item: "Our paper on why the Forward-Forward Algorithm, a backprop-free learning rule appealing for analog and physical hardware, underperforms backpropagation has been accepted to <b>NeurIPS 2026</b>"
     link: "https://arxiv.org/abs/2609.33240"
-    link2:"https://zhaoxian-wu.github.io/ffa-theory/"
+    link2: "https://zhaoxian-wu.github.io/ffa-theory/"
     date: "Sep 2026"
     selected: y
 
