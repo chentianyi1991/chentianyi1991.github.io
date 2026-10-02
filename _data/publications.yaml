@@ -20,6 +20,7 @@ papers:
     venue: "<i>Proc. of Neural Information Processing Systems</i> <b>(NeurIPS)</b>, Sydney, Australia, Dec. 2026."
     paper_pdf: "https://arxiv.org/abs/2609.33240"
     code: "https://github.com/Zhaoxian-Wu/ffa-theory"
+    blog: "https://zhaoxian-wu.github.io/ffa-theory/"
     label: "NeurIPS'26"
     selected: n
     recent: y
