@@ -8,6 +8,7 @@ papers:
     venue: "arXiv preprint, 2026."
     paper_pdf: "https://arxiv.org/abs/2609.36584"
     code: "https://github.com/Zhaoxian-Wu/scalable-analog-training"
+    blog: "https://zhaoxian-wu.github.io/ffa-theory/"
     label: "New preprint"
     fig: "./assets/pub_figure/2026-scalable-analog.webp"
     selected: y
